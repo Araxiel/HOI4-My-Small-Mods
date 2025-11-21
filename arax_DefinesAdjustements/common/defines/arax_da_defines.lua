@@ -1,7 +1,8 @@
 
  NDefines.NDiplomacy.BASE_SEND_ATTACHE_COST = 45					-- Political power cost to send attache         Default: 100
  NDefines.NCountry.POPULATION_YEARLY_GROWTH_BASE = 0.025		-- basic population growth per year, used for monthly manpower gain     Default: 0.015
- NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 10      -- Default: 5
+ -- Removed, because let's just try to be more patient
+ -- NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 10      -- Default: 5
  
  NDefines.NProduction.BASE_LICENSE_IC_COST = 0.5							-- Base IC cost for lended license      Default: 1
  NDefines.NProduction.LICENSE_IC_COST_YEAR_INCREASE = 0.5	            -- IC cost equipment for every year of equipment after 1936      Default: 1
