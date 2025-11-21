@@ -1,0 +1,1 @@
+ NDefines.NMilitary.COST_INCREASE_PER_ACTIVE_MEDAL = 0.15		-- Additional cost factor per active medal  --  Default: 0.25

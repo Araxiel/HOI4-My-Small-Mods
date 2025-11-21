@@ -50,8 +50,6 @@
  NDefines.NProduction.BASE_LAND_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.8        -- Fraction of the chassis industry cost which is always included in the conversion cost.     Default: 0.9
  
  NDefines.NPolitics.BASE_POLITICAL_POWER_INCREASE = 2.1	-- Weekly increase of PP.   Default: 2
-  
- NDefines.NMilitary.COST_INCREASE_PER_ACTIVE_MEDAL = 0.25		-- Additional cost factor per active medal  --  Default: 0.25
  
  NDefines.NOperatives.MAX_OPERATIVE_SLOT_FROM_AGENCY_UPGRADES = 2     -- Default: 1     -- max operative slots gained from upgrades
  NDefines.NOperatives.MAX_RECRUITED_OPERATIVES = 15     -- Default: 10 
