@@ -1,0 +1,15 @@
+technology_sharing_group = {
+
+	id = gf_popular_front_science_pool
+	name = socialist_science_pool_name
+	desc = socialist_science_pool_desc
+	picture = GFX_technology_sharing_default
+    
+	research_sharing_per_country_bonus = 0.1
+
+    available = {
+        is_in_faction = yes
+		has_government = communism
+    }
+
+}

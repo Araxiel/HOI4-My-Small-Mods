@@ -1,0 +1,21 @@
+﻿l_english:
+
+ GER_gf_fix_baltics: "Realign [FROM.GetNameDef]"
+ GER_gf_fix_venetia: "Unite [FROM.GetNameDef]"
+ GER_gf_additional_kommissariat: "Expand Volkskommissariat into [FROM.GetNameDef]"
+ GER_gf_negotiate_finish_soviet_peace: "Negotiate Finish-Soviet Peace"
+
+ gf_chi_generic_tank_organization: "$generic_tank_organization$"
+ gf_chi_generic_assault_guns_organization: "$generic_assault_guns_organization$"
+ gf_chi_generic_general_aircraft_organization: "$generic_general_aircraft_organization$"
+ gf_chi_generic_support_equipment_organization: "$generic_support_equipment_organization$"
+
+ gf_generic_support_equipment_organization: "$generic_support_equipment_organization$"
+ gf_generic_assault_guns_organization: "$generic_assault_guns_organization$"
+
+ FRA_join_iberian_popular_front: "Join the Iberian Popular Front"
+
+ FIN_gf_demand_estonia_handover: "Demand Handover of Estonia"
+ FIN_gf_demand_baltic_puppet_handover: "Demand Handover of Baltics"
+ FIN_gf_demand_nordics_handover: "Demand Handover of Nordics"
+ FIN_gf_nordics_integration: "Integrate Nordic Puppets"

@@ -1,0 +1,7 @@
+is_iberian_union = {
+	OR = {
+		original_tag = POR
+		original_tag = SPR
+		original_tag = SPD
+	}
+}
