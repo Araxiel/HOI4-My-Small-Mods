@@ -1,6 +1,7 @@
 # Araxiel's Personal Patch
 
-A "patch" to "fix" a ton of little things that annoy me.
+A "patch" to "fix" a ton of little things that annoy me.<br>
+Basically requires every DLC.
 
 ## Factions
 Greatly reduced the *range* of default factions, by limiting the join rules for factions that didn't already have geographic join rules:
