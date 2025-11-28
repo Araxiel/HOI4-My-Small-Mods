@@ -71,3 +71,10 @@
 		0.5, -- 25% for first trait
 		0.15  -- 5% for second trait after that
 	}
+
+-- Facility bonus
+ NDefines.NProject.BREAKTHROUGH_DAILY_TECHNOLOGY_GAIN = 24  -- Default: 12         -- Amount in 1/100th percentage. E.g. 25 = 0.25%
+ NDefines.NProject.BREAKTHROUGH_DAILY_SCIENTIST_SKILL_GAIN = 10  -- Default: 5     -- Amount in 1/100th percentage gained per skill when doing basic research. E.g. 5 = 0.05% per skill level.
+ NDefines.NProject.BASIC_RESEARCH_TECHNOLOGY_BONUS_FACTOR = 0.04 -- Default: 0.02    -- Bonus research factor applied to technologies per scientist skill level when performing basic research in a matching facility.
+ NDefines.NProject.BASIC_RESEARCH_TECHNOLOGY_BONUS_DIMINISHING_RETURN_FACTOR = 0 -- Default: 0.5 -- Diminishing return on BASIC_RESEARCH_TECHNOLOGY_BONUS_FACTOR for each extra scientist performing basic research for multiple facilities.
+	
