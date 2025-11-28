@@ -8,7 +8,7 @@ Greatly reduced the *range* of default factions, by limiting the join rules for 
 - Italian League: Same continent only.
 - Italian Empire: Only in Europe or Africa.
 - Generic factions: Only on the same continent.
-- Defensive Democratic Faction: Removed same continent only restriction (making it more global, in line with Allies).
+- Generic Defensive Democratic Faction: Removed same continent only restriction (making it more global, in line with Allies).
 
 Not wanting to limit the range of the Allies, representing a global alliance of anti-fascist (and anti-communist) countries:
 - Allies: Join rules remain unchanged, however new call-to-war rule introduced, called "Major War Only", which means members of the Allies faction can only be called into a war against a major enemy. If attacked by or attacking a minor, the entirety of the alliance can't be called into that war (however, normal assistance can still be done). Somewhat inspired by NATO's defacto policies and article 6, especially situations like the Angola war or Algeria. If a minor attacks, it shouldn't allow the entirety of the British and American navy to just *nuke* the aggressing minor.
