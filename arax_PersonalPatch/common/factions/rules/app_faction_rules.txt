@@ -1,0 +1,48 @@
+joining_rule_rome_empire = {
+	type = joining_rules
+	ai_will_do = {
+		base = 0
+		modifier = {
+			add = 1
+			has_government = neutrality
+			has_war = no 
+		}
+	}
+	visible = {
+		original_tag = ITA
+	}
+	trigger = {
+		OR = {
+			ROOT = { is_on_same_continent_as = FROM }
+			any_neighbor_country = {
+				is_in_faction_with = FROM
+			}
+			capital_scope = {
+				is_on_continent = africa
+			}
+			capital_scope = {
+				is_on_continent = europe
+			}
+		}
+	}
+	can_remove = {
+		faction_manifest_fulfillment > 0.75
+	}
+}
+
+call_to_war_rule_major_war_only = {
+	type = call_to_war_rules
+	trigger = {
+		any_enemy_country = {
+			is_major = yes
+		}
+	}
+	ai_will_do = {
+		base = 0
+		modifier = {
+			add = 1
+			tag = ENG
+			has_government = neutrality
+		}
+	}
+}

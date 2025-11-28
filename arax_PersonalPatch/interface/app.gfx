@@ -1,0 +1,13 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_call_to_war_rule_major_war_only"
+		texturefile = "gfx/interface/ideas/call_to_war_rule_major_only.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_joining_rule_rome_empire"
+		texturefile = "gfx/interface/ideas/idea_ITA_new_roman_empire_ns.dds"
+	}
+
+}
