@@ -36,8 +36,8 @@ These are all just normal rules, that can be removed by both the player or the A
 Made these for my German communism playthrough:
 
 - Some small fixes and more targets for the Volkskommissariats decisions (especially random puppets and liberated countries that were created during my game).
-- Scripted decision that allows to negotiate a peace deal for Finnland if both Germany and Soviets are friendly and communist, and Finland is not fascist.
-  - Soviets get to hold onto some of the territory they occupy.
+- Scripted decision that allows to negotiate a peace deal between Finnland and the Soviet Union, if both Germany and Soviets are friendly and communist, and Finland is not fascist.
+  - Soviets get to hold onto the territory they occupy when the decision ends.
   - Part of Finland becomes a DMZ
 
 ### France
@@ -52,3 +52,4 @@ For a Communist Finland playthrough:
   - Baltic puppets
   - Scandinavian territory
   - Scandinavian puppets
+- Integration decision to annex Nordic puppets over time through a decision.
