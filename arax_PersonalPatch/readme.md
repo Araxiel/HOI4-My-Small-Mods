@@ -3,7 +3,7 @@
 A "patch" to "fix" a ton of little things that annoy me.
 
 ## Factions
-Greatly reduced the *range* of default factions, by limiting the join rules:
+Greatly reduced the *range* of default factions, by limiting the join rules for factions that didn't already have geographic join rules:
 - Axis: Same continent only.
 - Italian League: Same continent only.
 - Italian Empire: Only in Europe or Africa.
