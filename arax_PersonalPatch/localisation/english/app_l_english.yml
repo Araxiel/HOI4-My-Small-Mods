@@ -2,3 +2,8 @@
 
   joining_rule_rome_empire: "Countries in Africa or Europe Only"
   call_to_war_rule_major_war_only: "Only When at war with Major"
+  app_extra_research_slot: "Additional Research Slot"
+
+  app_integrate: "Integrate [From.GetNameDef]"
+  app_integration: "Integration of [From.GetNameDef]"
+  app_integration_desc: "[From.GetNameDef] is being further integrated by their benevolent superior."

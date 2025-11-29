@@ -1,0 +1,105 @@
+
+economy_decisions = {
+	app_extra_research_slot = {
+
+		icon = GFX_decision_hol_exchange_intelligence_data
+
+		priority = 10
+
+		allowed = {
+			OR = {
+				original_tag = NOR
+				original_tag = PER
+				original_tag = ICE
+				original_tag = CHL
+				original_tag = AFG
+				original_tag = ARG
+				original_tag = BRA
+			}
+		}
+
+		visible = {
+			amount_research_slots = 4
+			is_ai = no
+		}
+
+		available = {
+			num_of_controlled_factories > 100
+		}
+		
+        fire_only_once = yes
+		
+        days_remove = 120
+		
+        modifier = {
+        }
+		
+		complete_effect = {
+		}
+		
+        remove_effect = {
+			add_research_slot = 1			
+        }
+		
+        cancel_trigger = {
+        }
+		
+        cancel_effect = {
+        }
+    }
+	
+}
+
+foreign_influence = {
+	app_integrate = {
+
+		icon = eng_propaganda_campaigns
+
+		days_remove = 120
+
+		allowed = {
+			NOT = { original_tag = ENG }
+		}
+		
+		available = {
+			FROM = {
+				is_puppet_of = ROOT
+			}
+			FROM = {
+				communism > 0.8
+			}
+			OR = {
+				political_power_daily > 0.5
+				has_political_power > 60
+			}
+		}
+
+		visible = {
+			is_ai = no
+			FROM = {
+				is_puppet_of = ROOT
+			}
+		}
+
+		target_array = subjects
+
+		target_trigger = {
+			FROM = {
+				is_puppet_of = ROOT
+			}
+		}
+
+		complete_effect = {
+			FROM = {
+				add_timed_idea = { idea = app_integration days = 120 }
+			}
+		}
+		modifier = {
+			political_power_cost = 0.5
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+}

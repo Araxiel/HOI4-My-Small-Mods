@@ -22,6 +22,10 @@ These are all just normal rules, that can be removed by both the player or the A
 
 ## Decisions and NFs
 
+### General
+- 5th Research slot for nations capping out at 4 (does require owning 100 factories)
+- New "Integrate" decision, usable on puppets and it works like the other Foreign Influence decisions.
+
 ### EU
 - Can invite any European nation to the EU, not just the listed large countries with original tags.
 - Can try to invite a country again after a year.
