@@ -1,0 +1,157 @@
+economy_decisions = {
+	app_prototype_tank_development = {
+
+		icon = GFX_decision_hol_exchange_intelligence_data
+
+		priority = 10
+
+		allowed = {
+
+		}
+
+		visible = {
+			has_country_flag = pvf_available_for_all
+			OR = {
+				NOT = {is_special_project_completed = sp:sp_mtls_tank}
+				NOT = {is_special_project_completed = sp:sp_skoda_tank}
+				NOT = {is_special_project_completed = sp:sp_pawel_tank}
+				NOT = {is_special_project_completed = sp:sp_praying_mantis_tank}
+				NOT = {is_special_project_completed = sp:sp_alecto_tank}
+				NOT = {is_special_project_completed = sp:sp_centaur_tank}
+				NOT = {is_special_project_completed = sp:sp_modra_tank}
+				NOT = {is_special_project_completed = sp:sp_helicopter_tank}
+				NOT = {is_special_project_completed = sp:sp_amx_tank}
+				NOT = {is_special_project_completed = sp:sp_fcm_tank}
+				NOT = {is_special_project_completed = sp:sp_jac_tank}
+				NOT = {is_special_project_completed = sp:sp_dumay_tank}
+				NOT = {is_special_project_completed = sp:sp_mk6_tank}
+				NOT = {is_special_project_completed = sp:sp_oqf_tank}
+				NOT = {is_special_project_completed = sp:sp_pak_tank}
+				NOT = {is_special_project_completed = sp:sp_flak_tank}
+				NOT = {is_special_project_completed = sp:sp_soto_tank}
+				NOT = {is_special_project_completed = sp:sp_chiha_tank}
+				NOT = {is_special_project_completed = sp:sp_giacomini_tank}
+				NOT = {is_special_project_completed = sp:sp_motoguzzi_tank}
+				NOT = {is_special_project_completed = sp:sp_biemmi_tank}
+				NOT = {is_special_project_completed = sp:sp_cul_tank}
+				NOT = {is_special_project_completed = sp:sp_t52_tank}
+				NOT = {is_special_project_completed = sp:sp_yoh_tank}
+				NOT = {is_special_project_completed = sp:sp_t43_tank}
+				NOT = {is_special_project_completed = sp:sp_t82_tank}
+				NOT = {is_special_project_completed = sp:sp_m5_tank}
+				NOT = {is_special_project_completed = sp:sp_cobra_tank}
+				NOT = {is_special_project_completed = sp:sp_smk_tank}
+				NOT = {is_special_project_completed = sp:sp_stg_tank}
+				NOT = {is_special_project_completed = sp:sp_ksp_tank}
+				NOT = {is_special_project_completed = sp:sp_oka_tank}
+				NOT = {is_special_project_completed = sp:sp_natter_plane}
+				NOT = {is_special_project_completed = sp:sp_voss_plane}
+				NOT = {is_special_project_completed = sp:sp_whit_plane}
+				NOT = {is_special_project_completed = sp:sp_north_plane}
+				NOT = {is_special_project_completed = sp:sp_bel_plane}
+			}
+			OR = {
+				NOT = {is_special_project_being_researched = sp:sp_mtls_tank}
+				NOT = {is_special_project_being_researched = sp:sp_skoda_tank}
+				NOT = {is_special_project_being_researched = sp:sp_pawel_tank}
+				NOT = {is_special_project_being_researched = sp:sp_praying_mantis_tank}
+				NOT = {is_special_project_being_researched = sp:sp_alecto_tank}
+				NOT = {is_special_project_being_researched = sp:sp_centaur_tank}
+				NOT = {is_special_project_being_researched = sp:sp_modra_tank}
+				NOT = {is_special_project_being_researched = sp:sp_helicopter_tank}
+				NOT = {is_special_project_being_researched = sp:sp_amx_tank}
+				NOT = {is_special_project_being_researched = sp:sp_fcm_tank}
+				NOT = {is_special_project_being_researched = sp:sp_jac_tank}
+				NOT = {is_special_project_being_researched = sp:sp_dumay_tank}
+				NOT = {is_special_project_being_researched = sp:sp_mk6_tank}
+				NOT = {is_special_project_being_researched = sp:sp_oqf_tank}
+				NOT = {is_special_project_being_researched = sp:sp_pak_tank}
+				NOT = {is_special_project_being_researched = sp:sp_flak_tank}
+				NOT = {is_special_project_being_researched = sp:sp_soto_tank}
+				NOT = {is_special_project_being_researched = sp:sp_chiha_tank}
+				NOT = {is_special_project_being_researched = sp:sp_giacomini_tank}
+				NOT = {is_special_project_being_researched = sp:sp_motoguzzi_tank}
+				NOT = {is_special_project_being_researched = sp:sp_biemmi_tank}
+				NOT = {is_special_project_being_researched = sp:sp_cul_tank}
+				NOT = {is_special_project_being_researched = sp:sp_t52_tank}
+				NOT = {is_special_project_being_researched = sp:sp_yoh_tank}
+				NOT = {is_special_project_being_researched = sp:sp_t43_tank}
+				NOT = {is_special_project_being_researched = sp:sp_t82_tank}
+				NOT = {is_special_project_being_researched = sp:sp_m5_tank}
+				NOT = {is_special_project_being_researched = sp:sp_cobra_tank}
+				NOT = {is_special_project_being_researched = sp:sp_smk_tank}
+				NOT = {is_special_project_being_researched = sp:sp_stg_tank}
+				NOT = {is_special_project_being_researched = sp:sp_ksp_tank}
+				NOT = {is_special_project_being_researched = sp:sp_oka_tank}
+				NOT = {is_special_project_being_researched = sp:sp_natter_plane}
+				NOT = {is_special_project_being_researched = sp:sp_voss_plane}
+				NOT = {is_special_project_being_researched = sp:sp_whit_plane}
+				NOT = {is_special_project_being_researched = sp:sp_north_plane}
+				NOT = {is_special_project_being_researched = sp:sp_bel_plane}
+			}
+		}
+
+		available = {
+		}
+		
+        fire_only_once = no
+		
+        days_remove = 0
+		
+        modifier = {
+        }
+		
+		complete_effect = {
+			app_give_prototype = yes
+		}
+		
+        remove_effect = {
+			# app_give_prototype = yes
+        }
+		
+        cancel_trigger = {
+        }
+		
+        cancel_effect = {
+        }
+    }
+	
+}
+
+# sp_mtls_tank
+# sp_skoda_tank
+# sp_pawel_tank
+# sp_praying_mantis_tank
+# sp_alecto_tank
+# sp_centaur_tank
+# sp_modra_tank
+# sp_helicopter_tank
+# sp_amx_tank
+# sp_fcm_tank
+# sp_jac_tank
+# sp_dumay_tank
+# sp_mk6_tank
+# sp_oqf_tank
+# sp_pak_tank
+# sp_flak_tank
+# sp_soto_tank
+# sp_chiha_tank
+# sp_giacomini_tank
+# sp_motoguzzi_tank
+# sp_biemmi_tank
+# sp_cul_tank
+# sp_t52_tank
+# sp_yoh_tank
+# sp_t43_tank
+# sp_t82_tank
+# sp_m5_tank
+# sp_cobra_tank
+# sp_smk_tank
+# sp_stg_tank
+# sp_ksp_tank
+# sp_oka_tank
+# sp_natter_plane
+# sp_voss_plane
+# sp_whit_plane
+# sp_north_plane
+# sp_bel_plane

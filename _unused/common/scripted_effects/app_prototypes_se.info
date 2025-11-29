@@ -1,0 +1,488 @@
+app_give_prototype = {
+	
+	random_list = {
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_mtls_tank
+			}
+			sp:sp_mtls_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_skoda_tank
+			}
+			sp:sp_skoda_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_pawel_tank
+			}
+			sp:sp_pawel_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_praying_mantis_tank
+			}
+			sp:sp_praying_mantis_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_alecto_tank
+			}
+			sp:sp_alecto_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_centaur_tank
+			}
+			sp:sp_centaur_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_modra_tank
+			}
+			sp:sp_modra_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_helicopter_tank
+			}
+			sp:sp_helicopter_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_amx_tank
+			}
+			sp:sp_amx_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_fcm_tank
+			}
+			sp:sp_fcm_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_jac_tank
+			}
+			sp:sp_jac_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_dumay_tank
+			}
+			sp:sp_dumay_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_mk6_tank
+			}
+			sp:sp_mk6_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_oqf_tank
+			}
+			sp:sp_oqf_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_pak_tank
+			}
+			sp:sp_pak_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_flak_tank
+			}
+			sp:sp_flak_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_soto_tank
+			}
+			sp:sp_soto_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_chiha_tank
+			}
+			sp:sp_chiha_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_giacomini_tank
+			}
+			sp:sp_giacomini_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_motoguzzi_tank
+			}
+			sp:sp_motoguzzi_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_biemmi_tank
+			}
+			sp:sp_biemmi_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_cul_tank
+			}
+			sp:sp_cul_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_t52_tank
+			}
+			sp:sp_t52_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_yoh_tank
+			}
+			sp:sp_yoh_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_t43_tank
+			}
+			sp:sp_t43_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_t82_tank
+			}
+			sp:sp_t82_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_m5_tank
+			}
+			sp:sp_m5_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_cobra_tank
+			}
+			sp:sp_cobra_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_smk_tank
+			}
+			sp:sp_smk_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_stg_tank
+			}
+			sp:sp_stg_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_ksp_tank
+			}
+			sp:sp_ksp_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_oka_tank
+			}
+			sp:sp_oka_tank = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_land
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_natter_plane
+			}
+			sp:sp_natter_plane = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_air
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_voss_plane
+			}
+			sp:sp_voss_plane = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_air
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_whit_plane
+			}
+			sp:sp_whit_plane = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_air
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_north_plane
+			}
+			sp:sp_north_plane = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_air
+				value = 1
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_bel_plane
+			}
+			sp:sp_bel_plane = {
+				add_project_progress_ratio = 0.25
+			}
+			add_breakthrough_points = {
+				specialization = specialization_air
+				value = 1
+			}
+		}
+
+	}
+	
+}
