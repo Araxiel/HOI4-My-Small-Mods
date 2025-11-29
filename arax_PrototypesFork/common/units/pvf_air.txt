@@ -1,0 +1,38 @@
+sub_units = {
+	
+
+	vertical_launch_interceptor = {
+		sprite = GFX_GER_prototype_plane_1_medium
+		priority = 3
+		active = yes
+		type = fighter
+		need = { vertical_launch_interceptor_equipment_1 = 1 }
+		categories = { category_fighter }
+		land_air_wing_size = 100
+		mega_carrier_air_wing_size = 10
+	}
+
+	flying_wing_bomber = {
+		sprite = GFX_USA_prototype_plane_0_medium
+		priority = 3
+		active = yes
+		type = strategic_bomber
+		need = { flying_wing_bomber_equipment_1 = 1 }
+		categories = { category_strat_bomber }
+		land_air_wing_size = 100
+		mega_carrier_air_wing_size = 10
+	}
+
+	flying_wing_jet_equipment = {
+		sprite = GFX_ENG_prototype_plane_0_medium
+		priority = 3
+		active = yes
+		type = fighter
+		need = { flying_wing_jet_equipment_1 = 1 }
+		categories = { category_fighter }
+		land_air_wing_size = 100
+		mega_carrier_air_wing_size = 10
+	}
+
+
+}

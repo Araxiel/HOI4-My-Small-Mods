@@ -1,0 +1,197 @@
+###Special Project Icons##
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_sp_mantis"
+		texturefile = "gfx/interface/special_project/project_icons/sp_mantis.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_modra"
+		texturefile = "gfx/interface/special_project/project_icons/sp_modra.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_grasshopper"
+		texturefile = "gfx/interface/special_project/project_icons/sp_grasshopper.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_mk6"
+		texturefile = "gfx/interface/special_project/project_icons/sp_mk6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_oqf"
+		texturefile = "gfx/interface/special_project/project_icons/sp_oqf.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_centaur"
+		texturefile = "gfx/interface/special_project/project_icons/sp_centaur.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_amx"
+		texturefile = "gfx/interface/special_project/project_icons/sp_amx.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_fcm"
+		texturefile = "gfx/interface/special_project/project_icons/sp_fcm.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_pak" 
+		texturefile = "gfx/interface/special_project/project_icons/sp_pak.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_flak"
+		texturefile = "gfx/interface/special_project/project_icons/sp_flak.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_t52"
+		texturefile = "gfx/interface/special_project/project_icons/sp_t52.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_smk"
+		texturefile = "gfx/interface/special_project/project_icons/sp_smk.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_soto"
+		texturefile = "gfx/interface/special_project/project_icons/sp_soto.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_stg"
+		texturefile = "gfx/interface/special_project/project_icons/sp_stg.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_mtls"
+		texturefile = "gfx/interface/special_project/project_icons/sp_mtls.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_yoh"
+		texturefile = "gfx/interface/special_project/project_icons/sp_yoh.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_giacomini"
+		texturefile = "gfx/interface/special_project/project_icons/sp_giacomini.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_t43"
+		texturefile = "gfx/interface/special_project/project_icons/sp_t43.dds"
+	}
+
+	spriteType = {  
+		name = "GFX_sp_alecto"
+		texturefile = "gfx/interface/special_project/project_icons/sp_alecto.dds"
+	}
+
+	spriteType = {  
+		name = "GFX_sp_t82"
+		texturefile = "gfx/interface/special_project/project_icons/sp_t82.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_m5"
+		texturefile = "gfx/interface/special_project/project_icons/sp_m5.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_chiha"
+		texturefile = "gfx/interface/special_project/project_icons/sp_chiha.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_dumay"
+		texturefile = "gfx/interface/special_project/project_icons/sp_dumay.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_pawel"
+		texturefile = "gfx/interface/special_project/project_icons/sp_pawel.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_jac"
+		texturefile = "gfx/interface/special_project/project_icons/sp_jac.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_skoda"
+		texturefile = "gfx/interface/special_project/project_icons/sp_skoda.dds"
+	}
+
+	spriteType = {  
+		name = "GFX_sp_motoguzzi"
+		texturefile = "gfx/interface/special_project/project_icons/sp_motoguzzi.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_biemmi"
+		texturefile = "gfx/interface/special_project/project_icons/sp_biemmi.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_cul"
+		texturefile = "gfx/interface/special_project/project_icons/sp_cul.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_ksp"
+		texturefile = "gfx/interface/special_project/project_icons/sp_ksp.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_oka"
+		texturefile = "gfx/interface/special_project/project_icons/sp_oka.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_cobra"
+		texturefile = "gfx/interface/special_project/project_icons/sp_cobra.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_natter"
+		texturefile = "gfx/interface/special_project/project_icons/sp_natter.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_voss"
+		texturefile = "gfx/interface/special_project/project_icons/sp_voss.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_north"
+		texturefile = "gfx/interface/special_project/project_icons/sp_north.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_whit"
+		texturefile = "gfx/interface/special_project/project_icons/sp_whit.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_sp_bel"
+		texturefile = "gfx/interface/special_project/project_icons/sp_bel.dds"
+	}
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+sub_units = {
+
+	revolving_tank_support_brigade = {
+		abbreviation = "RTSB"
+		sprite = armored_support_vehicle
+		map_icon_category = armored
+		priority = 10
+		ai_priority = 0
+		active = no
+		can_be_parachuted = no
+		
+		type = {
+			armor
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_tanks
+			category_army
+		}		
+		
+		combat_width = 0
+
+		need = {
+			modra_revolving_tank_equipment_1 = 15
+		}
+
+		essential = {
+			modra_revolving_tank_equipment_1
+		}
+		
+		manpower = 150
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 2
+		training_time = 100
+		weight = 0.2
+
+		supply_consumption = 0.12
+
+		breakthrough = 0.1
+
+	}
+}

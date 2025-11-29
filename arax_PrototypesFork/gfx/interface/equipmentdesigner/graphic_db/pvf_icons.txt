@@ -1,0 +1,493 @@
+##### PROTOTYPE VEHICLES FIX #####
+
+
+### FOR ALL COUNTREIS, IF YOU HAVE CHOSEN IT ###
+
+default = {
+	light_tank_chassis = {
+		pool = {
+			limit = { has_country_flag = pvf_available_for_all }
+			icons = { 
+				GFX_FRA_prototype_armor_1_medium
+				GFX_HOL_prototype_armor_0_medium
+				GFX_USA_prototype_armor_5_medium
+				GFX_FRA_prototype_armor_4_medium
+			}
+			models = {
+				FRA_prototype_armor_1_entity #Giacomini Tank
+				HOL_prototype_armor_0_entity #Marmon-Herrington MTLS-1GI4
+				USA_prototype_armor_5_entity #T52 Multiple Gun motor carriage
+				FRA_prototype_armor_4_entity #Jacquet Assault Train
+			}
+		}
+	}
+	light_tank_destroyer_chassis = {
+		pool = {
+			limit = { has_country_flag = pvf_available_for_all }
+			icons = { 
+				GFX_USA_prototype_armor_1_medium
+				GFX_GER_prototype_armor_1_medium
+			}
+			models = {
+				USA_prototype_armor_1_entity #3 inch gun motor carriage t1
+				GER_prototype_armor_1_entity #Flakpanzer 8,8 cm PaK 43 Steyr Waffenträger
+			}
+		}
+	}
+	light_tank_artillery_chassis = { 
+		pool = {
+			limit = { has_country_flag = pvf_available_for_all }
+			icons = { 
+				GFX_ENG_prototype_armor_0_medium
+			}
+			models = {
+				ENG_prototype_armor_0_entity #Alecto (SPG)
+			}
+		}
+	}
+	medium_tank_destroyer_chassis = {
+		pool = {
+			limit = { has_country_flag = pvf_available_for_all }
+			icons = { 
+				GFX_FRA_prototype_armor_2_medium
+			}
+			models = {
+				FRA_prototype_armor_2_entity #AMX Chasseur de char de 90 mm (1946)
+			}
+		}
+	}
+	medium_tank_aa_chassis = {
+		pool = {
+			limit = { has_country_flag = pvf_available_for_all }
+			icons = { 
+				GFX_GER_prototype_armor_0_medium
+				GFX_CAN_prototype_armor_0_medium
+			}
+			models = {
+				GER_prototype_armor_0_entity #Flakpanzer 341
+				CAN_prototype_armor_0_entity #OQF 3.7″ AA on Ram Mounting
+			}
+		}
+	}	
+	heavy_tank_destroyer_chassis = {
+		pool = {
+			limit = { has_country_flag = pvf_available_for_all }
+			icons = { 
+				GFX_ENG_prototype_armor_2_medium
+			}
+			models = {
+				ENG_prototype_armor_2_entity #FV4005 – Centaur
+			}
+		}
+	}
+
+	vertical_launch_interceptor_equipment = {
+		pool = {
+			limit = { has_country_flag = pvf_available_for_all }
+			icons = {
+				GFX_GER_prototype_plane_1_medium
+			}
+			models = {
+				GER_prototype_plane_1_entity #Bachem Ba 349 Natter
+			}
+		}
+	}
+
+	flying_wing_jet_equipment_1 = {
+		pool = {
+			limit = { has_country_flag = pvf_available_for_all }
+			icons = {
+				GFX_ENG_prototype_plane_0_medium
+			}
+			models = {
+				ENG_prototype_plane_0_entity #Armstrong Whitworth A.W.52
+			}
+		}
+	}
+
+	flying_wing_bomber_equipment_1 = {
+		pool = {
+			limit = { has_country_flag = pvf_available_for_all }
+			icons = {
+				GFX_USA_prototype_plane_0_medium
+			}
+			models = {
+				USA_prototype_plane_0_entity #Northrop XB-35
+
+			}
+		}
+	}
+
+}
+
+
+### TANKS ###
+
+ITA = {
+	light_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_FRA_prototype_armor_1_medium
+			}
+			models = {
+				FRA_prototype_armor_1_entity #Giacomini Tank
+			}
+		}
+	}
+}
+
+HOL = {
+	light_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_HOL_prototype_armor_0_medium
+			}
+			models = {
+				HOL_prototype_armor_0_entity #Marmon-Herrington MTLS-1GI4
+			}
+		}
+	}
+}
+
+USA = {
+	light_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_USA_prototype_armor_5_medium
+			}
+			models = {
+				USA_prototype_armor_5_entity #T52 Multiple Gun motor carriage
+			}
+		}
+	}
+	light_tank_destroyer_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_USA_prototype_armor_1_medium
+			}
+			models = {
+				USA_prototype_armor_1_entity #3 inch gun motor carriage t1
+			}
+		}
+	}
+}
+
+FRA = {
+	medium_tank_destroyer_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_FRA_prototype_armor_2_medium
+			}
+			models = {
+				FRA_prototype_armor_2_entity #AMX Chasseur de char de 90 mm (1946)
+			}
+		}
+	}
+	light_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_FRA_prototype_armor_4_medium
+			}
+			models = {
+				FRA_prototype_armor_4_entity #Jacquet Assault Train
+			}
+		}
+	}
+	articulated_tank_equipment = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_FRA_prototype_armor_4_medium
+			}
+			models = {
+				FRA_prototype_armor_4_entity #Jacquet Assault Train
+			}
+		}
+	}
+}
+
+AUS = {
+	light_tank_destroyer_chassis = {
+		pool = { 
+			weight = 0.5
+			icons = { 
+				GFX_GER_prototype_armor_1_medium
+			}
+			models = {
+				GER_prototype_armor_1_entity #Flakpanzer 8,8 cm PaK 43 Steyr Waffenträger
+			}
+		}
+	}
+	medium_tank_aa_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_GER_prototype_armor_0_medium
+			}
+			models = {
+				GER_prototype_armor_0_entity #Flakpanzer 341
+			}
+		}
+	}	
+	
+}
+
+SWI = {
+	light_tank_destroyer_chassis = {
+		pool = { 
+			weight = 0.5
+			icons = { 
+				GFX_GER_prototype_armor_1_medium
+			}
+			models = {
+				GER_prototype_armor_1_entity #Flakpanzer 8,8 cm PaK 43 Steyr Waffenträger
+			}
+		}
+	}
+	medium_tank_aa_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_GER_prototype_armor_0_medium
+			}
+			models = {
+				GER_prototype_armor_0_entity #Flakpanzer 341
+			}
+		}
+	}	
+}
+
+GER = {
+	light_tank_destroyer_chassis = {
+		pool = { 
+			weight = 0.5
+			icons = { 
+				GFX_GER_prototype_armor_1_medium
+			}
+			models = {
+				GER_prototype_armor_1_entity #Flakpanzer 8,8 cm PaK 43 Steyr Waffenträger
+			}
+		}
+	}
+}
+
+AST = {
+	heavy_tank_destroyer_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_ENG_prototype_armor_2_medium
+			}
+			models = {
+				ENG_prototype_armor_2_entity #FV4005 – Centaur
+			}
+		}
+	}
+	medium_tank_aa_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_CAN_prototype_armor_0_medium
+			}
+			models = {
+				CAN_prototype_armor_0_entity #OQF 3.7″ AA on Ram Mounting
+			}
+		}
+	}
+	light_tank_artillery_chassis = { 
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_ENG_prototype_armor_0_medium
+			}
+			models = {
+				ENG_prototype_armor_0_entity #Alecto (SPG)
+			}
+		}
+	}
+}
+
+NZL = {
+	heavy_tank_destroyer_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_ENG_prototype_armor_2_medium
+			}
+			models = {
+				ENG_prototype_armor_2_entity #FV4005 – Centaur
+			}
+		}
+	}
+	medium_tank_aa_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_CAN_prototype_armor_0_medium
+			}
+			models = {
+				CAN_prototype_armor_0_entity #OQF 3.7″ AA on Ram Mounting
+			}
+		}
+	}
+	light_tank_artillery_chassis = { 
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_ENG_prototype_armor_0_medium
+			}
+			models = {
+				ENG_prototype_armor_0_entity #Alecto (SPG)
+			}
+		}
+	}
+}
+
+CAN = {
+	heavy_tank_destroyer_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_ENG_prototype_armor_2_medium
+			}
+			models = {
+				ENG_prototype_armor_2_entity #FV4005 – Centaur
+			}
+		}
+	}
+	light_tank_artillery_chassis = { 
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_ENG_prototype_armor_0_medium
+			}
+			models = {
+				ENG_prototype_armor_0_entity #Alecto (SPG)
+			}
+		}
+	}
+}
+
+RAJ = {
+	heavy_tank_destroyer_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_ENG_prototype_armor_2_medium
+			}
+			models = {
+				ENG_prototype_armor_2_entity #FV4005 – Centaur
+			}
+		}
+	}
+	medium_tank_aa_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_CAN_prototype_armor_0_medium
+			}
+			models = {
+				CAN_prototype_armor_0_entity #OQF 3.7″ AA on Ram Mounting
+			}
+		}
+	}
+	light_tank_artillery_chassis = { 
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_ENG_prototype_armor_0_medium
+			}
+			models = {
+				ENG_prototype_armor_0_entity #Alecto (SPG)
+			}
+		}
+	}
+}
+
+SAF = {
+	heavy_tank_destroyer_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_ENG_prototype_armor_2_medium
+			}
+			models = {
+				ENG_prototype_armor_2_entity #FV4005 – Centaur
+			}
+		}
+	}
+	medium_tank_aa_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_CAN_prototype_armor_0_medium
+			}
+			models = {
+				CAN_prototype_armor_0_entity #OQF 3.7″ AA on Ram Mounting
+			}
+		}
+	}
+	light_tank_artillery_chassis = { 
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_ENG_prototype_armor_0_medium
+			}
+			models = {
+				ENG_prototype_armor_0_entity #Alecto (SPG)
+			}
+		}
+	}
+}
+
+### PLANES ###
+
+GER = {
+	vertical_launch_interceptor_equipment = {
+		pool = {
+			weight = 0.01
+			icons = {
+				GFX_GER_prototype_plane_1_medium
+			}
+			models = {
+				GER_prototype_plane_1_entity #Bachem Ba 349 Natter
+			}
+		}
+	}
+}
+
+ENG = {
+	flying_wing_jet_equipment_1 = {
+		pool = {
+			weight = 0.5
+			icons = {
+				GFX_ENG_prototype_plane_0_medium
+			}
+			models = {
+				ENG_prototype_plane_0_entity #Armstrong Whitworth A.W.52
+			}
+		}
+	}
+}
+
+USA = {
+	flying_wing_bomber_equipment_1 = {
+		pool = {
+			weight = 0.5
+			icons = {
+				GFX_USA_prototype_plane_0_medium
+			}
+			models = {
+				USA_prototype_plane_0_entity #Northrop XB-35
+
+			}
+		}
+	}
+}
+

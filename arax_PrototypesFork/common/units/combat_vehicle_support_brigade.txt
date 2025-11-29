@@ -1,0 +1,85 @@
+sub_units = {
+
+	combat_vehicle_support_brigade = { #
+		abbreviation = "CVSB"
+		sprite = mechanized
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+
+		type = {
+			mechanized
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_vehicle_infantry
+			category_army
+			category_mobile_and_mobile_combat_sup
+		}
+
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 2
+		max_organisation = 2
+		default_morale = 0.5
+		manpower = 400
+		training_time = 200
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.1 
+				
+		defense = 0.25 
+		breakthrough = 0.5
+		soft_attack = 3
+
+		battalion_mult = {
+			category = category_all_infantry
+			max_organisation = 0.2
+			max_strength = 0.2
+		}
+
+		can_be_parachuted = no
+
+		essential = {
+			combat_vehicle_equipment
+			support_equipment
+		}
+
+		need = {
+			combat_vehicle_equipment_1 = 30
+			support_equipment = 10
+		}
+
+		forest = {
+			attack = -0.1
+		}
+		mountain = {
+			attack = -0.15
+		}
+		jungle = {
+			attack = -0.2
+		}
+		marsh = {
+			attack = -0.3
+		}
+		urban = {
+			attack = -0.05
+		}
+		river = {
+			attack = -0.25
+			movement = -0.25
+		}
+		amphibious = {
+			attack = -0.4
+		}
+
+	}
+}

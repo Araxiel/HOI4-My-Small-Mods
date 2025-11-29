@@ -1,0 +1,18 @@
+on_actions = {
+
+	#Not run on a specific country.
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				country_event = pvf.1
+			}
+		}
+	}
+	
+	
+}
+
+

@@ -1,0 +1,83 @@
+sub_units = {
+
+	light_gun_carrier_brigade = { #
+		abbreviation = "LGC"
+		sprite = light_armor
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+		is_artillery_brigade = yes
+
+		type = {
+			armor
+			artillery
+		}
+		
+		group = armor_combat_support
+		
+		categories = {
+			category_all_armor
+			category_army
+			category_self_propelled_artillery
+			category_artillery
+		}
+
+	
+		combat_width = 2
+	
+		#Size Definitions
+		max_strength = 1
+		max_organisation = 0
+		default_morale = 0.1
+		manpower = 350
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.5
+		supply_consumption = 0.3
+		breakthrough = -0.5
+		suppression = 0.8
+		soft_attack = 2
+
+		can_be_parachuted = no
+
+		essential = {
+			light_gun_carrier_equipment_1
+		}
+
+		need = {
+			light_gun_carrier_equipment_1 = 40
+		}
+
+		mountain = {
+			attack = 0.2
+			movement = 0.1
+		}
+		
+		hills = {
+			attack = 0.2
+			movement = 0.1
+		}
+		
+		forest = {
+			attack = -0.1
+			movement = -0.1
+		}
+
+		jungle = {
+			attack = -0.2
+			movement = -0.1
+		}
+
+		marsh = {
+			attack = -0.1
+			movement = -0.2
+		}
+
+		river = {
+			movement = -0.25
+		}
+
+	}
+}

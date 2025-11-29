@@ -1,0 +1,41 @@
+﻿l_english:
+ revolving_tank_support_brigade:0 "Revolving Tank Support"
+ revolving_tank_support_brigade_desc:0 "A fast-moving, armored formation built around Modra's revolving-turret tanks. Designed for breakthrough and sustained assault, it combines heavy firepower, mobility, and coordinated maneuvers to dominate the battlefield. Its primary role is to spearhead offensives, smash through defenses, and exploit gaps with decisive force."
+ revolving_tank_brigade:0 "Revolving Tank"
+ revolving_tank_brigade_desc:0 "A fast-moving, armored formation built around Modra's revolving-turret tanks. Designed for breakthrough and sustained assault, it combines heavy firepower, mobility, and coordinated maneuvers to dominate the battlefield. Its primary role is to spearhead offensives, smash through defenses, and exploit gaps with decisive force."
+ 
+ giacomini_tank_support:0 "Dozer Tank Support"
+ giacomini_tank_support_desc:0 "A specialized support battalion equipped with light armored dozer tanks, providing divisions with improved entrenchment, fortified defenses, and enhanced mobility in difficult terrain."
+
+ articulated_tank_brigade:0 "Articulated Tank"
+ articulated_tank_brigade_desc:0 "A frontline formation of articulated tanks that uses their jointed hulls to push through obstacles and difficult terrain, giving divisions stronger breakthrough and armored presence."
+ articulated_tank_support_brigade:0 "Articulated Tank Brigade"
+ articulated_tank_support_brigade_desc:0 "A specialized support unit that deploys a small number of articulated tanks to assist infantry, improving movement and defense in rough ground while adding extra armored protection."
+
+ transport_support_brigade:0 "Halftrack Transport"
+ transport_support_brigade_desc:0 "A support formation equipped with lightly armored transports that carry infantry safely across the battlefield, improving division mobility, protection, and organization while saving on fuel and supplies."
+
+ light_gun_carrier_brigade:0 "Light Gun Carrier"
+ light_gun_carrier_brigade_desc:0 "A line formation of light self-propelled guns that provide cheap and mobile fire support, excelling in hills and mountains where conventional artillery struggles."
+
+ open_topped_sp_support_brigade:0 "Support Open-Topped Tank Destroyer"
+ open_topped_sp_support_brigade_desc:0 "A support unit of Open-Topped SP's attached to infantry divisions, providing mobile anti-tank firepower to bolster defenses without the cost of a full armored battalion."
+
+ open_topped_sp_brigade:0 "Open-Topped SP Tank Destroyer"
+ open_topped_sp_brigade_desc:0 "A line formation of Open-Topped SP Tank Destroyers that acts as a glass cannon, using speed and firepower to counter enemy tanks but offering little protection to its crews."
+
+ ultra_heavy_artillery_support_brigade:0 "Colossal SP Artillery"
+ ultra_heavy_artillery_support_brigade_desc:0 "A formation deploying colossal artillery pieces to divisions, providing unmatched bombardment strength but consuming vast resources and requiring special logistical support."
+
+ combat_vehicle_brigade:0 "Combat Command Vehicle"
+ combat_vehicle_brigade_desc:0 "A battalion of combat command vehicles provides mobile fire support and coordination, improving a division’s striking power and battlefield control."
+
+ combat_vehicle_support_brigade:0 "Support Combat Command Vehicle"
+ combat_vehicle_support_brigade_desc:0 "A company of combat command vehicles attached to infantry divisions brings radios and heavy weapons, improving both coordination and fire support."
+
+ vertical_launch_interceptor:0 "Vertical Launch Interceptor"
+ vertical_launch_interceptor_desc:0 "Wings of vertical launch interceptors provide rapid-response point defense, scrambling directly into enemy bomber streams to inflict heavy losses before fuel and airframe limits force them down."
+
+
+ 
+

@@ -1,0 +1,69 @@
+###########################
+# Prototype Vehicle Event #
+###########################
+
+add_namespace = pvf
+
+country_event = {
+	id = pvf.1
+	title = pvf.1.t
+	desc = pvf.1.d
+	picture = GFX_report_event_sweden_tank
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = pvf.1.a
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			set_country_flag = has_prototype_vehicles_dlc
+		}
+		custom_effect_tooltip = PVF_projects_wont_work_properly
+		hidden_effect = {
+			country_event = pvf.2
+		}
+	}
+
+	option = {
+		name = pvf.1.b
+		custom_effect_tooltip = GAME_OVER_TT
+		hidden_effect = {
+			random_country = {
+				annex_country = {
+					target = ROOT
+				}
+			}
+		}
+	}
+
+}
+
+country_event = {	### DO YOU WANT ALL PROJECTS AVAILABLE??
+	id = pvf.2
+	title = pvf.2.t
+	desc = pvf.2.d
+	picture = GFX_report_event_sweden_tank
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {	# No its fine
+		name = pvf.2.a
+		custom_effect_tooltip = pvf_good_boy_tt
+		add_political_power = 50
+	}
+
+	option = {	# HECK YEAH!
+		name = pvf.2.b
+		set_country_flag = pvf_available_for_all
+		custom_effect_tooltip = pvf_projects_might_be_buggy_tt
+	}
+
+}
+
+

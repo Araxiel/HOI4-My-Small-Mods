@@ -1,0 +1,95 @@
+sub_units = {
+
+	open_topped_sp_support_brigade = { #
+		abbreviation = "OTSB"
+		sprite = motorized
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+
+		type = {
+			armor
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_tanks
+			category_tank_destroyers
+			category_army
+		}
+
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 2
+		max_organisation = 10
+		default_morale = 0.3
+		manpower = 200
+		training_time = 60
+
+		#Misc Abilities
+		weight = 0.15
+		supply_consumption = 0.05 
+				
+		defense = 1
+		breakthrough = 0.8
+
+		can_be_parachuted = no
+
+		essential = {
+			open_topped_spg_equipment
+			support_equipment
+		}
+
+		need = {
+			open_topped_spg_equipment_1 = 20
+			support_equipment = 20
+		}
+
+		battalion_mult = {
+			category = category_tank_destroyers
+			hard_attack = 0.1
+		}
+
+		forest = {
+			attack = -0.1
+		}
+
+		hills = {
+			movement = 0.1
+		}
+
+		mountain = {
+			movement = -0.2
+		}
+
+		jungle = {
+			attack = -0.25
+			movement = -0.15
+		}
+
+		marsh = {
+			movement = -0.3
+		}
+
+		fort = {
+			attack = 0.25
+		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		amphibious = {
+			attack = -0.4
+		}
+
+
+	}
+}

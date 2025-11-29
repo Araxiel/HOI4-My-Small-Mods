@@ -1,0 +1,3126 @@
+                                                                                                                                          
+######                                                          #     #                                             
+#     # #####   ####  #####  ####  ##### #   # #####  ######    #     # ###### #    # #  ####  #      ######  ####  
+#     # #    # #    #   #   #    #   #    # #  #    # #         #     # #      #    # # #    # #      #      #      
+######  #    # #    #   #   #    #   #     #   #    # #####     #     # #####  ###### # #      #      #####   ####  
+#       #####  #    #   #   #    #   #     #   #####  #          #   #  #      #    # # #      #      #           # 
+#       #   #  #    #   #   #    #   #     #   #      #           # #   #      #    # # #    # #      #      #    # 
+#       #    #  ####    #    ####    #     #   #      ######       #    ###### #    # #  ####  ###### ######  ####  
+                                                                                                                     
+###TODO: Make a SUPER HEAVY TANK AMPHIBIOUS Version so that it can be used for that.
+###TODO: Maybe make articulated tank modules for light tank??
+###TODO: Once Coal is introduced, modify coal engine!!
+
+### NETHERLANDS ###
+
+sp_mtls_tank = {
+
+	icon = GFX_sp_mtls
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = HOL
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+		}
+		has_tech = basic_light_tank_chassis
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_mtls_tech = 1
+			}
+			
+			add_design_template_bonus = {
+				name = sp_light_tank_bonus
+				uses = 1
+				cost_factor = 1
+				equipment = light_tank_chassis
+			}
+
+			PVF_add_mtls_template = yes
+
+		}
+
+		enable_equipment_modules = {
+			tank_twin_cannon_turret
+			tank_dual_guns
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+### CZECHOSLOVAKIA, GERMANY ###
+
+sp_skoda_tank = {
+
+	icon = GFX_sp_skoda
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = CZE
+				AND = {
+					original_tag = GER
+					OR = {
+						has_full_control_of_state = 9
+						CZE = {
+							exists = no
+						}
+						CZE = {
+							is_subject_of = GER
+						}
+					}
+				}
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = engine_tech_2
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_skoda_tech = 1
+			}
+
+			PVF_add_skoda_template = yes
+			
+		}
+
+		enable_equipment_modules = {
+			tank_coal_engine
+		}
+
+		enable_equipments = {
+			halftrack_transport_equipment_1
+		}
+
+		enable_subunits = {
+			transport_support_brigade
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+### POLAND ###
+
+sp_pawel_tank = {
+
+	icon = GFX_sp_pawel
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = POL
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = gwtank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_pawel_tech = 1
+			}
+			
+			add_design_template_bonus = {
+				name = sp_heavy_tank_bonus
+				uses = 1
+				cost_factor = 1
+				equipment = heavy_tank_chassis
+			}
+
+			PVF_add_pawel_template = yes
+
+		}
+
+		enable_equipment_modules = {
+			tank_multi_gun_casemate_turret
+			tank_multiple_heavy_guns
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+### UK AND COMMONWEALTH ###
+
+sp_praying_mantis_tank = {
+
+	icon = GFX_sp_mantis
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = ENG
+				AND = {
+					is_subject_of = ENG
+					OR = {
+						original_tag = AST
+						original_tag = SAF
+						original_tag = NZL
+						original_tag = RAJ
+						original_tag = CAN
+					}
+				}
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = gw_artillery
+			has_tech = basic_light_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_mantis_tech = 1
+			}
+			
+			add_design_template_bonus = {
+				name = sp_light_sp_art_bonus
+				uses = 1
+				cost_factor = 1
+				equipment = light_tank_artillery_chassis
+			}
+
+			PVF_add_mantis_template = yes
+
+		}
+
+		enable_equipment_modules = {
+			limit = {
+				has_dlc = "No Step Back"
+			}
+			telescopic_mount 
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+sp_alecto_tank = {
+
+	icon = GFX_sp_alecto 
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_artillery
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = ENG
+				AND = {
+					is_subject_of = ENG
+					OR = {
+						original_tag = AST
+						original_tag = SAF
+						original_tag = NZL
+						original_tag = RAJ
+						original_tag = CAN
+					}
+				}
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = gw_artillery
+			has_tech = basic_light_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_alecto_tech = 1
+			}
+			
+			add_design_template_bonus = {
+				name = sp_light_sp_art_bonus
+				uses = 1
+				cost_factor = 1
+				equipment = light_tank_artillery_chassis
+			}
+
+			PVF_add_alecto_template = yes
+
+		}
+
+		enable_equipment_modules = {
+			tank_alecto_light_fixed_superstructure_turret 
+			tank_alecto_field_gun_mount
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+sp_centaur_tank = {
+
+	icon = GFX_sp_centaur
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = ENG
+				AND = {
+					is_subject_of = ENG
+					OR = {
+						original_tag = AST
+						original_tag = SAF
+						original_tag = NZL
+						original_tag = RAJ
+						original_tag = CAN
+					}
+				}
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = interwar_antitank
+			has_tech = basic_heavy_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+			PVF_add_centaur_template = yes
+		}
+
+		enable_equipment_modules = {
+			tank_183mm_gun
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+
+### AUSTRALIA ###
+
+sp_modra_tank = {
+
+	icon = GFX_sp_modra
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = AST
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = basic_light_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		enable_equipments = {
+			modra_revolving_tank_equipment_1
+		}
+
+		enable_subunits = {
+			revolving_tank_brigade
+			revolving_tank_support_brigade
+		}
+
+		country_effects = {
+			PVF_add_modra_template = yes
+		}
+
+		
+
+		
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+sp_helicopter_tank = {
+
+	icon = GFX_sp_grasshopper
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = AST
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = basic_light_tank_chassis
+		}
+	}
+
+	special_project_parent = {
+		sp_air_helicopter
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+			PVF_add_helicopter_tank_template = yes
+		}
+
+		enable_equipment_modules = {
+			helicopter_rotors
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+### FRANCE ###
+
+
+sp_amx_tank = {
+
+	icon = GFX_sp_amx
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = FRA
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = basic_medium_tank_chassis
+		}
+	}
+
+	special_project_parent = {
+		sp_land_super_heavy_howitzer
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+			set_technology = {
+				pvf_amx_tech = 1
+			}
+			
+			add_design_template_bonus = {
+				name = sp_anti_tank_bonus
+				uses = 1
+				cost_factor = 1
+				equipment = medium_tank_destroyer_chassis
+			}
+
+			PVF_add_amx_template = yes
+		}
+
+		enable_equipment_modules = {
+			tank_90mm_gun
+		}
+
+		
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+sp_fcm_tank = {
+
+	icon = GFX_sp_fcm
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = FRA
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = basic_light_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+			
+			set_technology = {
+				pvf_fcm_tech = 1
+			}
+
+			PVF_add_fcm_template = yes
+		}
+
+		enable_equipment_modules = {
+			tank_lightweight_torsion_suspension
+		}
+
+		
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+sp_jac_tank = {
+
+	icon = GFX_sp_jac
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = FRA
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = gwtank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		enable_equipments = {
+			articulated_tank_equipment_1
+		}
+
+		enable_subunits = {
+			articulated_tank_brigade
+			articulated_tank_support_brigade
+		}
+
+		country_effects = {
+			PVF_add_jac_template = yes
+		}
+
+		
+
+		
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+
+sp_dumay_tank = {
+
+	icon = GFX_sp_dumay
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = FRA
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = amphibious_tank_chassis
+			has_tech = improved_heavy_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+			
+			set_technology = {
+				pvf_dumay_tech = 1
+			}
+
+			PVF_add_dumay_template = yes
+		}
+
+		enable_equipment_modules = {
+			amphibious_drive_dumay
+		}
+
+		enable_equipments = {
+			super_heavy_tank_chassis_1
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+            
+### BELGIUM ###
+
+
+sp_mk6_tank = {
+
+	icon = GFX_sp_mk6
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_artillery
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = BEL
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = artillery1
+			has_tech = basic_light_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {			
+
+			set_technology = {
+				pvf_mk6_tech = 1
+			}
+			
+			add_design_template_bonus = {
+				name = sp_anti_tank_bonus
+				uses = 1
+				cost_factor = 1
+				equipment = light_tank_destroyer_chassis
+			}
+
+			PVF_add_mk6_template = yes
+		}
+
+		enable_equipment_modules = {
+			tank_mkv_light_fixed_superstructure_turret
+			tank_47mm_gun
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+       
+### CANADA AND COMMONWEALTH ###
+
+sp_oqf_tank = {
+
+	icon = GFX_sp_oqf
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_artillery
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = CAN
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = basic_heavy_tank_chassis
+			has_tech = interwar_antiair
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_oqf_tech = 1
+			}
+			
+			add_design_template_bonus = {
+				name = sp_anti_air_bonus
+				uses = 1
+				cost_factor = 1
+				equipment = medium_tank_aa_chassis
+			}
+
+			PVF_add_oqf_template = yes
+		}
+
+		enable_equipment_modules = {
+			tank_oqf_medium_fixed_superstructure_turret
+			tank_94mm_gun
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+
+### GERMANY, AUSTRIA, SWITZERLAND ###
+
+sp_pak_tank = {
+
+	icon = GFX_sp_pak
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = GER
+				original_tag = AUS
+				original_tag = SWI
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = antitank1
+			has_tech = basic_light_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+			set_technology = {
+				pvf_pak_tech = 1
+			}
+			
+			add_design_template_bonus = {
+				name = sp_anti_tank_bonus
+				uses = 1
+				cost_factor = 1
+				equipment = light_tank_destroyer_chassis
+			}
+
+			PVF_add_pak_template = yes
+		}
+
+		enable_equipment_modules = {
+			tank_small_rear_mounted_turret
+			tank_pak_43_gun
+		}
+
+		
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+sp_flak_tank = {
+
+	icon = GFX_sp_flak
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = GER
+				original_tag = AUS
+				original_tag = SWI
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = antiair1
+			has_tech = basic_medium_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_flak_tech = 1
+			}
+			
+			add_design_template_bonus = {
+				name = sp_anti_air_bonus
+				uses = 1
+				cost_factor = 1
+				equipment = medium_tank_aa_chassis
+			}
+
+			PVF_add_flak_template = yes
+		}
+
+		enable_equipment_modules = {
+			tank_medium_twin_cannon_turret
+			tank_twin_autocannons
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+
+### JAPAN ###
+
+
+sp_soto_tank = {
+
+	icon = GFX_sp_soto
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = JAP
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = interwar_antitank
+			has_tech = gwtank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {			
+
+			set_technology = {
+				pvf_soto_tech = 1
+			}
+			
+			add_design_template_bonus = {
+				name = sp_anti_tank_bonus
+				uses = 1
+				cost_factor = 1
+				equipment = light_tank_destroyer_chassis
+			}
+
+			PVF_add_soto_template = yes
+		}
+
+		enable_equipment_modules = {
+			tank_pedestal_gun_mount
+			tank_soto_light_fixed_superstructure_turret
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+   
+sp_chiha_tank = {
+
+	icon = GFX_sp_chiha
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = JAP
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = artillery1
+			has_tech = basic_medium_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {			
+
+			set_technology = {
+				pvf_chiha_tech = 1
+			}
+			
+			add_design_template_bonus = {
+				name = sp_light_sp_art_bonus
+				uses = 1
+				cost_factor = 1
+				equipment = light_tank_artillery_chassis
+			}
+
+			PVF_add_chiha_template = yes
+		}
+
+		enable_equipment_modules = {
+			tank_chiha_rockets
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+   
+
+### ITALY ###
+
+sp_giacomini_tank = {
+
+	icon = GFX_sp_giacomini
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = ITA
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = gwtank_chassis
+		}
+	}
+
+	special_project_parent = {
+		sp_land_military_engineering_vehicles
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		enable_equipments = {
+			dozer_tank_equipment_1
+		}
+
+		enable_subunits = {
+			giacomini_tank_support
+		}
+
+		enable_equipment_modules = {
+			tank_dozer_blade
+		}
+
+		country_effects = {
+			PVF_add_giacomini_template = yes
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+sp_motoguzzi_tank = {
+
+	icon = GFX_sp_motoguzzi
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_artillery
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = ITA
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = gwtank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		enable_equipments = {
+			light_gun_carrier_equipment_1
+		}
+
+		enable_subunits = {
+			light_gun_carrier_brigade
+		}
+
+		country_effects = {
+			PVF_add_motoguzzi_template = yes
+			set_technology = {
+				pvf_motoguzzi_tech = 1
+			}
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+sp_biemmi_tank = {
+
+	icon = GFX_sp_biemmi
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = ITA
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = improved_light_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		enable_equipment_modules = {
+			tank_all_round_track_suspension
+			tank_naval_gun
+		}
+
+		country_effects = {
+			PVF_add_biemmi_template = yes
+			set_technology = {
+				pvf_biemmi_tech = 1
+			}
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+sp_cul_tank = {
+
+	icon = GFX_sp_cul
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = ITA
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = gwtank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		enable_equipment_modules = {
+			tank_makeshift_armor_hull
+			tank_improvised_mg
+		}
+
+		country_effects = {
+			PVF_add_cul_template = yes
+			set_technology = {
+				pvf_cul_tech = 1
+			}
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+### USA ###
+
+sp_t52_tank = {
+
+	icon = GFX_sp_t52
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = USA
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = basic_medium_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_t52_tech = 1
+			}
+			
+			add_design_template_bonus = {
+				name = sp_light_anti_air_bonus
+				uses = 1
+				cost_factor = 1
+				equipment = light_tank_aa_chassis
+			}
+
+			PVF_add_t52_template = yes
+		}
+
+		enable_equipment_modules = {
+			tank_rotating_light_turret
+			tank_light_twin_autocannons
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+
+sp_yoh_tank = {
+
+	icon = GFX_sp_yoh
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = USA
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = basic_medium_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_yoh_tech = 1
+			}
+
+			add_design_template_bonus = {
+				name = sp_medium_tank_bonus
+				uses = 1
+				cost_factor = 1
+				equipment = medium_tank_aa_chassis
+			}
+
+			PVF_add_yoh_template = yes
+		}
+
+		enable_equipment_modules = {
+			tank_oscillating_turret
+			tank_autoloader_gun
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+
+sp_t43_tank = {
+
+	icon = GFX_sp_t43
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = USA
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = improved_heavy_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_t43_tech = 1
+			}
+
+			add_design_template_bonus = {
+				name = sp_heavy_tank_bonus
+				uses = 1
+				cost_factor = 1
+				equipment = heavy_tank_chassis
+			}
+
+			PVF_add_t43_template = yes
+		}
+
+		enable_equipment_modules = {
+			tank_dozer_blade
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+
+sp_t82_tank = {
+
+	icon = GFX_sp_t82
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_artillery
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = USA
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = artillery1
+			has_tech = basic_light_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_t82_tech = 1
+			}
+
+			add_design_template_bonus = {
+				name = sp_light_sp_art_bonus
+				uses = 1
+				cost_factor = 1
+				equipment = light_tank_artillery_chassis
+			}
+
+			PVF_add_t82_template = yes
+		}
+
+		enable_equipment_modules = {
+			tank_t82_light_fixed_superstructure_turret
+			tank_t82_howitzer
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+sp_m5_tank = {
+
+	icon = GFX_sp_m5
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_artillery
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = USA
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = interwar_antitank
+			has_tech = basic_light_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_m5_tech = 1
+			}
+
+			add_design_template_bonus = {
+				name = sp_light_anti_tank_bonus
+				uses = 1
+				cost_factor = 1
+				equipment = light_tank_artillery_chassis
+			}
+
+			PVF_add_m5_template = yes
+		}
+
+		enable_equipment_modules = {
+			tank_m5_light_fixed_superstructure_turret
+			tank_m5_anti_tank_gun
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+sp_cobra_tank = {
+
+	icon = GFX_sp_cobra
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = USA
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = mechanised_infantry
+			has_tech = improved_medium_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_cobra_tech = 1
+			}
+
+			PVF_add_cobra_template = yes
+		}
+
+		enable_equipments = {
+			combat_vehicle_equipment_1
+		}
+
+		enable_subunits = {
+			combat_vehicle_brigade
+			combat_vehicle_support_brigade
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+
+### SOVIET UNION ###
+
+sp_smk_tank = {
+
+	icon = GFX_sp_smk
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = SOV
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = improved_heavy_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_smk_tech = 1
+			}
+			
+			add_design_template_bonus = {
+				name = sp_heavy_tank_bonus
+				uses = 1
+				cost_factor = 1
+				equipment = heavy_tank_chassis
+			}
+
+			PVF_add_smk_template = yes
+		}
+
+		enable_equipment_modules = {
+			tank_dual_turret_mount
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+
+sp_stg_tank = {
+
+	icon = GFX_sp_stg
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = SOV
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = basic_medium_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			add_design_template_bonus = {
+				name = sp_medium_tank_bonus
+				uses = 3
+				cost_factor = 1
+				equipment = medium_tank_chassis
+			}
+
+			PVF_add_stg_template = yes
+		}
+
+		enable_equipment_modules = {
+			tank_rear_mounted_turret
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+sp_ksp_tank = {
+
+	icon = GFX_sp_ksp
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_artillery
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = SOV
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = interwar_antitank
+			has_tech = armored_car1
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_smk_tech = 1
+			}
+			
+
+			PVF_add_ksp_template = yes
+		}
+
+		enable_subunits = {
+			open_topped_sp_brigade
+			open_topped_sp_support_brigade
+		}
+
+		enable_equipments = {
+			open_topped_spg_equipment_1
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+sp_oka_tank = {
+
+	icon = GFX_sp_oka
+
+	specialization = specialization_land
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = SOV
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = super_heavy_tank_chassis
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 0
+	}
+
+	prototype_time = sp_time.prototype.medium
+
+	complexity = sp_complexity.medium
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_oka_tech = 1
+			}
+			
+
+			PVF_add_oka_template = yes
+		}
+
+		enable_subunits = {
+			ultra_heavy_artillery_support_brigade
+		}
+
+		enable_equipments = {
+			ultra_heavy_artillery_equipment_1
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+#### AIR PROJECTS ####
+
+### GERMANY ###
+
+sp_natter_plane = {
+
+	icon = GFX_sp_natter
+
+	specialization = specialization_air
+
+	project_tags = sp_tag_aircraft
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = GER
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+		}
+	}
+
+	special_project_parent = {
+		sp_air_jet_engine
+	}
+
+	breakthrough_cost = {
+		specialization_air = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_natter_tech = 1
+			}
+		
+			PVF_add_natter_template = yes
+		}
+
+		enable_equipments = {
+			vertical_launch_interceptor_equipment_1
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+sp_voss_plane = {
+
+	icon = GFX_sp_voss
+
+	specialization = specialization_air
+
+	project_tags = sp_tag_aircraft
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "By Blood Alone"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = GER
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = iw_medium_airframe
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_air = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_voss_tech = 1
+			}
+		
+			PVF_add_voss_template = yes
+		}
+
+		enable_equipment_modules = {
+			asymmetrical_cockpit
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+### ENGLAND ###
+
+sp_whit_plane = {
+
+	icon = GFX_sp_whit
+
+	specialization = specialization_air
+
+	project_tags = sp_tag_aircraft
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		#has_dlc = "By Blood Alone"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = ENG
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = improved_medium_airframe
+		}
+	}
+
+	special_project_parent = {
+		sp_air_jet_engine
+	}
+
+	breakthrough_cost = {
+		specialization_air = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_whit_tech = 1
+			}
+		
+			PVF_add_whit_template = yes
+		}
+
+		enable_equipments = {
+			flying_wing_jet_equipment_1
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+
+### USA ###
+
+sp_north_plane = {
+
+	icon = GFX_sp_north
+
+	specialization = specialization_air
+
+	project_tags = sp_tag_aircraft
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = USA
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = improved_medium_airframe
+		}
+	} 
+ 
+	breakthrough_cost = {
+		specialization_air = 2
+	}
+
+	prototype_time = sp_time.prototype.medium
+
+	complexity = sp_complexity.medium
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_north_tech = 1
+			}
+		
+			PVF_add_north_template = yes
+		}
+
+		enable_equipments = {
+			flying_wing_bomber_equipment_1
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+### Soviet Union ###
+
+sp_bel_plane = {
+
+	icon = GFX_sp_bel
+
+	specialization = specialization_air
+
+	project_tags = sp_tag_aircraft
+
+	ai_will_do = {
+		base = 0
+	}
+
+	allowed = {
+		has_dlc = "By Blood Alone"
+	}
+
+	available = {
+		FROM = {
+			OR = {
+				original_tag = SOV
+				has_country_flag = pvf_available_for_all
+			}
+			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = basic_medium_airframe
+		}
+	} 
+ 
+	breakthrough_cost = {
+		specialization_air = 0
+	}
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_output = {
+
+		country_effects = {
+
+			set_technology = {
+				pvf_bel_tech = 1
+			}
+		
+			PVF_add_bel_template = yes
+		}
+
+		enable_equipment_modules = {
+			dual_fuselage_cockpit
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_armor_tech_1
+		sp_land_generic_reward_armor_tech_2
+		sp_land_generic_reward_armor_tech_3
+		sp_land_generic_reward_engine_bonus_1
+		sp_land_generic_reward_engine_bonus_2
+		sp_land_generic_reward_engine_bonus_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}
+
+
+
+

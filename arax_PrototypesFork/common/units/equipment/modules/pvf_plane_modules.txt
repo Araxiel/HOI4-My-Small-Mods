@@ -1,0 +1,45 @@
+equipment_modules = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	
+	### SPECIAL MODULES ###
+
+	asymmetrical_cockpit = {
+		abbreviation = "acp"
+		category = plane_special_module_medium
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			surface_detection = 5
+			build_cost_ic = 2
+		}
+		multiply_stats = {
+			air_defence = -0.05
+			air_agility = 0.1
+		}
+		xp_cost = 1
+		dismantle_cost_ic = 1
+	}
+
+	dual_fuselage_cockpit = {
+		abbreviation = "dfc"
+		category = plane_special_module_medium
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			surface_detection = 7
+			build_cost_ic = 3
+			weight = 6
+			air_defence = 5
+			air_agility = -3
+		}
+		multiply_stats = {
+			maximum_speed = -0.05
+		}
+		xp_cost = 1
+		dismantle_cost_ic = 1
+	}
+
+
+}

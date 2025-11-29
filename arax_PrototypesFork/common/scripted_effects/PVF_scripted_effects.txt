@@ -1,0 +1,4117 @@
+
+PVF_add_mantis_template = {
+	
+	if = {
+		limit = { 
+			has_tech = advanced_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Praying Mantis"
+			type = light_tank_artillery_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_close_support_gun
+				turret_type_slot = telescopic_mount
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_ENG_prototype_armor_1_medium"
+			model = ENG_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_chassis_3
+			amount = 100
+			variant_name = "Praying Mantis"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_artillery_chassis_3
+				version_name = "Praying Mantis"
+			}
+			requested_factories = 3
+			progress = 0.75
+			efficiency = 40
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Praying Mantis"
+			type = light_tank_artillery_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_close_support_gun
+				turret_type_slot = telescopic_mount
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_ENG_prototype_armor_1_medium"
+			model = ENG_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_chassis_2
+			amount = 100
+			variant_name = "Praying Mantis"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_artillery_chassis_2
+				version_name = "Praying Mantis"
+			}
+			requested_factories = 3
+			progress = 0.75
+			efficiency = 40
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Praying Mantis"
+			type = light_tank_artillery_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_close_support_gun
+				turret_type_slot = telescopic_mount
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_ENG_prototype_armor_1_medium"
+			model = ENG_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_chassis_1
+			amount = 100
+			variant_name = "Praying Mantis"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_artillery_chassis_1
+				version_name = "Praying Mantis"
+			}
+			requested_factories = 3
+			progress = 0.75
+			efficiency = 40
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "Praying Mantis"
+			type = light_tank_artillery_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_close_support_gun
+				turret_type_slot = telescopic_mount
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_ENG_prototype_armor_1_medium"
+			model = ENG_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_chassis_0
+			amount = 100
+			variant_name = "Praying Mantis"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_artillery_chassis_0
+				version_name = "Praying Mantis"
+			}
+			requested_factories = 3
+			progress = 0.75
+			efficiency = 40
+		}
+	}
+}
+
+PVF_add_alecto_template = {
+	
+	if = {
+		limit = { 
+			has_tech = advanced_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Alecto"
+			type = light_tank_artillery_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_alecto_field_gun_mount
+				turret_type_slot = tank_alecto_light_fixed_superstructure_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_ENG_prototype_armor_0_medium"
+			model = ENG_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_chassis_3
+			amount = 100
+			variant_name = "Alecto"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_artillery_chassis_3
+				version_name = "Alecto"
+			}
+			requested_factories = 3
+			progress = 0.75
+			efficiency = 40
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Alecto"
+			type = light_tank_artillery_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_alecto_field_gun_mount
+				turret_type_slot = tank_alecto_light_fixed_superstructure_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_ENG_prototype_armor_0_medium"
+			model = ENG_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_chassis_2
+			amount = 100
+			variant_name = "Alecto"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_artillery_chassis_2
+				version_name = "Alecto"
+			}
+			requested_factories = 3
+			progress = 0.75
+			efficiency = 40
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Alecto"
+			type = light_tank_artillery_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_alecto_field_gun_mount
+				turret_type_slot = tank_alecto_light_fixed_superstructure_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_ENG_prototype_armor_0_medium"
+			model = ENG_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_chassis_1
+			amount = 100
+			variant_name = "Alecto"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_artillery_chassis_1
+				version_name = "Alecto"
+			}
+			requested_factories = 3
+			progress = 0.75
+			efficiency = 40
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "Alecto"
+			type = light_tank_artillery_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_alecto_field_gun_mount
+				turret_type_slot = tank_alecto_light_fixed_superstructure_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_ENG_prototype_armor_0_medium"
+			model = ENG_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_chassis_0
+			amount = 100
+			variant_name = "Alecto"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_artillery_chassis_0
+				version_name = "Alecto"
+			}
+			requested_factories = 3
+			progress = 0.75
+			efficiency = 40
+		}
+	}
+}
+
+PVF_add_t82_template = {
+	
+	if = {
+		limit = { 
+			has_tech = advanced_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "T82 Howitzer Motor Carriage"
+			type = light_tank_artillery_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_t82_howitzer
+				turret_type_slot = tank_t82_light_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_USA_prototype_armor_0_medium"
+			model = USA_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_chassis_3
+			amount = 100
+			variant_name = "T82 Howitzer Motor Carriage"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_artillery_chassis_3
+				version_name = "T82 Howitzer Motor Carriage"
+			}
+			requested_factories = 3
+			progress = 0.75
+			efficiency = 40
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "T82 Howitzer Motor Carriage"
+			type = light_tank_artillery_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_t82_howitzer
+				turret_type_slot = tank_t82_light_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_USA_prototype_armor_0_medium"
+			model = USA_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_chassis_2
+			amount = 100
+			variant_name = "T82 Howitzer Motor Carriage"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_artillery_chassis_2
+				version_name = "T82 Howitzer Motor Carriage"
+			}
+			requested_factories = 3
+			progress = 0.75
+			efficiency = 40
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "T82 Howitzer Motor Carriage"
+			type = light_tank_artillery_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_t82_howitzer
+				turret_type_slot = tank_t82_light_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_USA_prototype_armor_0_medium"
+			model = USA_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_chassis_1
+			amount = 100
+			variant_name = "T82 Howitzer Motor Carriage"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_artillery_chassis_1
+				version_name = "T82 Howitzer Motor Carriage"
+			}
+			requested_factories = 3
+			progress = 0.75
+			efficiency = 40
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "T82 Howitzer Motor Carriage"
+			type = light_tank_artillery_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_t82_howitzer
+				turret_type_slot = tank_t82_light_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_USA_prototype_armor_0_medium"
+			model = USA_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_artillery_chassis_0
+			amount = 100
+			variant_name = "T82 Howitzer Motor Carriage"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_artillery_chassis_0
+				version_name = "T82 Howitzer Motor Carriage"
+			}
+			requested_factories = 3
+			progress = 0.75
+			efficiency = 40
+		}
+	}
+}
+
+PVF_add_helicopter_tank_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Grasshopper"
+			type = light_tank_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_alecto_field_gun_mount
+				turret_type_slot = tank_alecto_light_fixed_superstructure_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_ENG_prototype_armor_0_medium"
+			model = ENG_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis_3
+			amount = 100
+			variant_name = "Grasshopper"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_chassis_3
+				version_name = "Grasshopper"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 50
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Grasshopper"
+			type = light_tank_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon
+				turret_type_slot = tank_light_one_man_tank_turret
+				special_type_slot_1 = helicopter_rotors
+				suspension_type_slot = tank_christie_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_AST_prototype_armor_1_medium"
+			model = AST_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis_2
+			amount = 100
+			variant_name = "Grasshopper"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_chassis_2
+				version_name = "Grasshopper"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 50
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Grasshopper"
+			type = light_tank_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon
+				turret_type_slot = tank_light_one_man_tank_turret
+				special_type_slot_1 = helicopter_rotors
+				suspension_type_slot = tank_christie_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_AST_prototype_armor_1_medium"
+			model = AST_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis_1
+			amount = 100
+			variant_name = "Grasshopper"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_chassis_1
+				version_name = "Grasshopper"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 50
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "Grasshopper"
+			type = light_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon
+				turret_type_slot = tank_light_one_man_tank_turret
+				special_type_slot_1 = helicopter_rotors
+				suspension_type_slot = tank_christie_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_AST_prototype_armor_1_medium"
+			model = AST_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis_0
+			amount = 100
+			variant_name = "Grasshopper"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_chassis_0
+				version_name = "Grasshopper"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 50
+		}
+	}
+}
+
+PVF_add_mk6_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "MK-VI 47mm"
+			type = light_tank_destroyer_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_47mm_gun
+				turret_type_slot = tank_mkv_light_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_BEL_prototype_armor_0_medium"
+			model = BEL_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_destroyer_chassis_3
+			amount = 100
+			variant_name = "MK-VI 47mm"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_destroyer_chassis_3
+				version_name = "MK-VI 47mm"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "MK-VI 47mm"
+			type = light_tank_destroyer_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_47mm_gun
+				turret_type_slot = tank_mkv_light_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_BEL_prototype_armor_0_medium"
+			model = BEL_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_destroyer_chassis_2
+			amount = 100
+			variant_name = "MK-VI 47mm"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_destroyer_chassis_2
+				version_name = "MK-VI 47mm"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "MK-VI 47mm"
+			type = light_tank_destroyer_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_47mm_gun
+				turret_type_slot = tank_mkv_light_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_BEL_prototype_armor_0_medium"
+			model = BEL_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_destroyer_chassis_1
+			amount = 100
+			variant_name = "MK-VI 47mm"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_destroyer_chassis_1
+				version_name = "MK-VI 47mm"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "MK-VI 47mm"
+			type = light_tank_destroyer_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_47mm_gun
+				turret_type_slot = tank_mkv_light_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_BEL_prototype_armor_0_medium"
+			model = BEL_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_destroyer_chassis_0
+			amount = 100
+			variant_name = "MK-VI 47mm"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_destroyer_chassis_0
+				version_name = "MK-VI 47mm"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+}
+
+PVF_add_m5_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "M5/T1 Tank Destroyer"
+			type = light_tank_destroyer_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_m5_anti_tank_gun
+				turret_type_slot = tank_m5_light_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_USA_prototype_armor_1_medium"
+			model = USA_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_destroyer_chassis_3
+			amount = 100
+			variant_name = "MK-VI 47mm"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_destroyer_chassis_3
+				version_name = "MK-VI 47mm"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "MK-VI 47mm"
+			type = light_tank_destroyer_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_m5_anti_tank_gun
+				turret_type_slot = tank_m5_light_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_USA_prototype_armor_1_medium"
+			model = USA_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_destroyer_chassis_2
+			amount = 100
+			variant_name = "MK-VI 47mm"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_destroyer_chassis_2
+				version_name = "MK-VI 47mm"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "MK-VI 47mm"
+			type = light_tank_destroyer_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_m5_anti_tank_gun
+				turret_type_slot = tank_m5_light_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_USA_prototype_armor_1_medium"
+			model = USA_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_destroyer_chassis_1
+			amount = 100
+			variant_name = "MK-VI 47mm"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_destroyer_chassis_1
+				version_name = "MK-VI 47mm"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "MK-VI 47mm"
+			type = light_tank_destroyer_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_m5_anti_tank_gun
+				turret_type_slot = tank_m5_light_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_USA_prototype_armor_1_medium"
+			model = USA_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_destroyer_chassis_0
+			amount = 100
+			variant_name = "MK-VI 47mm"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_destroyer_chassis_0
+				version_name = "MK-VI 47mm"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+}
+
+PVF_add_dumay_template = {
+	create_equipment_variant = {
+		name = "Perinelle-Dumay Amphibious Tank"
+		type = super_heavy_tank_chassis_1
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_heavy_cannon_2
+			turret_type_slot = tank_super_heavy_four_man_tank_turret
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = secondary_turret_hmg
+			special_type_slot_3 = amphibious_drive_dumay
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 10
+			tank_nsb_armor_upgrade = 1
+		}
+		icon = "GFX_FRA_prototype_armor_0_medium"
+		model = FRA_prototype_armor_0_entity
+	}
+	add_equipment_to_stockpile = {
+		type = super_heavy_tank_chassis_1
+		amount = 20
+		variant_name = "Perinelle-Dumay Amphibious Tank"
+	}
+	add_equipment_production = {
+		equipment = { 
+			type = super_heavy_tank_chassis_1
+			version_name = "Perinelle-Dumay Amphibious Tank"
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 30
+	}
+}
+
+PVF_add_chiha_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_medium_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Type 97 Chi-Ha - Bangalore Torpedo Launcher"
+			type = medium_tank_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon_2
+				turret_type_slot = tank_medium_two_man_tank_turret
+				special_type_slot_1 = tank_radio_1
+				special_type_slot_2 = tank_chiha_rockets
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_diesel_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_JAP_prototype_armor_1_medium"
+			model = JAP_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_chassis_3
+			amount = 100
+			variant_name = "Type 97 Chi-Ha - Bangalore Torpedo Launcher"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_chassis_3
+				version_name = "Type 97 Chi-Ha - Bangalore Torpedo Launcher"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_medium_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Type 97 Chi-Ha - Bangalore Torpedo Launcher"
+			type = medium_tank_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon_2
+				turret_type_slot = tank_medium_two_man_tank_turret
+				special_type_slot_1 = tank_radio_1
+				special_type_slot_2 = tank_chiha_rockets
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_diesel_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_JAP_prototype_armor_1_medium"
+			model = JAP_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_chassis_2
+			amount = 100
+			variant_name = "Type 97 Chi-Ha - Bangalore Torpedo Launcher"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_chassis_2
+				version_name = "Type 97 Chi-Ha - Bangalore Torpedo Launcher"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_medium_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Type 97 Chi-Ha - Bangalore Torpedo Launcher"
+			type = medium_tank_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon_2
+				turret_type_slot = tank_medium_two_man_tank_turret
+				special_type_slot_1 = tank_radio_1
+				special_type_slot_2 = tank_chiha_rockets
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_diesel_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_JAP_prototype_armor_1_medium"
+			model = JAP_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_chassis_1
+			amount = 100
+			variant_name = "Type 97 Chi-Ha - Bangalore Torpedo Launcher"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_chassis_1
+				version_name = "Type 97 Chi-Ha - Bangalore Torpedo Launcher"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "Type 97 Chi-Ha - Bangalore Torpedo Launcher"
+			type = medium_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon_2
+				turret_type_slot = tank_medium_two_man_tank_turret
+				special_type_slot_1 = tank_radio_1
+				special_type_slot_2 = tank_chiha_rockets
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_diesel_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_JAP_prototype_armor_1_medium"
+			model = JAP_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_chassis_0
+			amount = 100
+			variant_name = "Type 97 Chi-Ha - Bangalore Torpedo Launcher"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_chassis_0
+				version_name = "Type 97 Chi-Ha - Bangalore Torpedo Launcher"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+}
+
+PVF_add_soto_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "So-To Anti Tank Gun Carrier"
+			type = light_tank_destroyer_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_pedestal_gun_mount
+				turret_type_slot = tank_soto_light_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_JAP_prototype_armor_0_medium"
+			model = JAP_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_destroyer_chassis_3
+			amount = 100
+			variant_name = "So-To Anti Tank Gun Carrier"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_destroyer_chassis_3
+				version_name = "So-To Anti Tank Gun Carrier"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "So-To Anti Tank Gun Carrier"
+			type = light_tank_destroyer_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_pedestal_gun_mount
+				turret_type_slot = tank_soto_light_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_JAP_prototype_armor_0_medium"
+			model = JAP_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_destroyer_chassis_2
+			amount = 100
+			variant_name = "So-To Anti Tank Gun Carrier"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_destroyer_chassis_2
+				version_name = "So-To Anti Tank Gun Carrier"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "So-To Anti Tank Gun Carrier"
+			type = light_tank_destroyer_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_pedestal_gun_mount
+				turret_type_slot = tank_soto_light_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_JAP_prototype_armor_0_medium"
+			model = JAP_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_destroyer_chassis_1
+			amount = 100
+			variant_name = "So-To Anti Tank Gun Carrier"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_destroyer_chassis_1
+				version_name = "So-To Anti Tank Gun Carrier"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "So-To Anti Tank Gun Carrier"
+			type = light_tank_destroyer_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_pedestal_gun_mount
+				turret_type_slot = tank_soto_light_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_JAP_prototype_armor_0_medium"
+			model = JAP_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_destroyer_chassis_0
+			amount = 100
+			variant_name = "So-To Anti Tank Gun Carrier"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_destroyer_chassis_0
+				version_name = "So-To Anti Tank Gun Carrier"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+}
+
+PVF_add_pak_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Steyr PaK 43 Waffenträger"
+			type = light_tank_destroyer_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_pak_43_gun
+				turret_type_slot = tank_small_rear_mounted_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_GER_prototype_armor_1_medium"
+			model = GER_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_destroyer_chassis_3
+			amount = 100
+			variant_name = "Steyr PaK 43 Waffenträger"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_destroyer_chassis_3
+				version_name = "Steyr PaK 43 Waffenträger"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 45
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Steyr PaK 43 Waffenträger"
+			type = light_tank_destroyer_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_pak_43_gun
+				turret_type_slot = tank_small_rear_mounted_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_GER_prototype_armor_1_medium"
+			model = GER_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_destroyer_chassis_2
+			amount = 100
+			variant_name = "Steyr PaK 43 Waffenträger"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_destroyer_chassis_2
+				version_name = "Steyr PaK 43 Waffenträger"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 45
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Steyr PaK 43 Waffenträger"
+			type = light_tank_destroyer_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_pak_43_gun
+				turret_type_slot = tank_small_rear_mounted_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_GER_prototype_armor_1_medium"
+			model = GER_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_destroyer_chassis_1
+			amount = 100
+			variant_name = "Steyr PaK 43 Waffenträger"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_destroyer_chassis_1
+				version_name = "Steyr PaK 43 Waffenträger"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 45
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "Steyr PaK 43 Waffenträger"
+			type = light_tank_destroyer_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_pak_43_gun
+				turret_type_slot = tank_small_rear_mounted_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_GER_prototype_armor_1_medium"
+			model = GER_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_destroyer_chassis_0
+			amount = 100
+			variant_name = "Steyr PaK 43 Waffenträger"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_destroyer_chassis_0
+				version_name = "Steyr PaK 43 Waffenträger"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 45
+		}
+	}
+}
+
+PVF_add_oqf_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_medium_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "OQF 3.7'' AA"
+			type = medium_tank_aa_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_94mm_gun
+				turret_type_slot = tank_oqf_medium_fixed_superstructure_turret
+				suspension_type_slot = tank_christie_suspension
+				armor_type_slot = tank_cast_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_CAN_prototype_armor_0_medium"
+			model = CAN_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_aa_chassis_3
+			amount = 100
+			variant_name = "OQF 3.7'' AA"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_aa_chassis_3
+				version_name = "OQF 3.7'' AA"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_medium_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "OQF 3.7'' AA"
+			type = medium_tank_aa_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_94mm_gun
+				turret_type_slot = tank_oqf_medium_fixed_superstructure_turret
+				suspension_type_slot = tank_christie_suspension
+				armor_type_slot = tank_cast_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_CAN_prototype_armor_0_medium"
+			model = CAN_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_aa_chassis_2
+			amount = 100
+			variant_name = "OQF 3.7'' AA"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_aa_chassis_2
+				version_name = "OQF 3.7'' AA"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_medium_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "OQF 3.7'' AA"
+			type = medium_tank_aa_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_94mm_gun
+				turret_type_slot = tank_oqf_medium_fixed_superstructure_turret
+				suspension_type_slot = tank_christie_suspension
+				armor_type_slot = tank_cast_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_CAN_prototype_armor_0_medium"
+			model = CAN_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_aa_chassis_1
+			amount = 100
+			variant_name = "OQF 3.7'' AA"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_aa_chassis_1
+				version_name = "OQF 3.7'' AA"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "OQF 3.7'' AA"
+			type = medium_tank_aa_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_94mm_gun
+				turret_type_slot = tank_oqf_medium_fixed_superstructure_turret
+				suspension_type_slot = tank_christie_suspension
+				armor_type_slot = tank_cast_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_CAN_prototype_armor_0_medium"
+			model = CAN_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_aa_chassis_0
+			amount = 100
+			variant_name = "OQF 3.7'' AA"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_aa_chassis_0
+				version_name = "OQF 3.7'' AA"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+}
+
+PVF_add_flak_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_medium_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Flakpanzer 341"
+			type = medium_tank_aa_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_twin_autocannons
+				turret_type_slot = tank_medium_twin_cannon_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_GER_prototype_armor_0_medium"
+			model = GER_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_aa_chassis_3
+			amount = 100
+			variant_name = "Flakpanzer 341"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_aa_chassis_3
+				version_name = "Flakpanzer 341"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_medium_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Flakpanzer 341"
+			type = medium_tank_aa_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_twin_autocannons
+				turret_type_slot = tank_medium_twin_cannon_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_GER_prototype_armor_0_medium"
+			model = GER_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_aa_chassis_2
+			amount = 100
+			variant_name = "Flakpanzer 341"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_aa_chassis_2
+				version_name = "Flakpanzer 341"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_medium_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Flakpanzer 341"
+			type = medium_tank_aa_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_twin_autocannons
+				turret_type_slot = tank_medium_twin_cannon_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_GER_prototype_armor_0_medium"
+			model = GER_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_aa_chassis_1
+			amount = 100
+			variant_name = "Flakpanzer 341"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_aa_chassis_1
+				version_name = "Flakpanzer 341"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "Flakpanzer 341"
+			type = medium_tank_aa_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_twin_autocannons
+				turret_type_slot = tank_medium_twin_cannon_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_GER_prototype_armor_0_medium"
+			model = GER_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_aa_chassis_0
+			amount = 100
+			variant_name = "Flakpanzer 341"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_aa_chassis_0
+				version_name = "Flakpanzer 341"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+}
+
+PVF_add_t52_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "T52 Multiple Gun Motor Carriage"
+			type = light_tank_aa_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_light_twin_autocannons
+				turret_type_slot = tank_rotating_light_turret
+				special_type_slot_1 = tank_radio_1
+				suspension_type_slot = tank_half_track_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_USA_prototype_armor_5_medium"
+			model = USA_prototype_armor_5_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_aa_chassis_3
+			amount = 100
+			variant_name = "T52 Multiple Gun Motor Carriage"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_aa_chassis_3
+				version_name = "T52 Multiple Gun Motor Carriage"
+			}
+			requested_factories = 2
+			progress = 0.3
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "T52 Multiple Gun Motor Carriage"
+			type = light_tank_aa_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_light_twin_autocannons
+				turret_type_slot = tank_rotating_light_turret
+				special_type_slot_1 = tank_radio_1
+				suspension_type_slot = tank_half_track_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_USA_prototype_armor_5_medium"
+			model = USA_prototype_armor_5_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_aa_chassis_2
+			amount = 100
+			variant_name = "T52 Multiple Gun Motor Carriage"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_aa_chassis_2
+				version_name = "T52 Multiple Gun Motor Carriage"
+			}
+			requested_factories = 2
+			progress = 0.3
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "T52 Multiple Gun Motor Carriage"
+			type = light_tank_aa_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_light_twin_autocannons
+				turret_type_slot = tank_rotating_light_turret
+				special_type_slot_1 = tank_radio_1
+				suspension_type_slot = tank_half_track_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_USA_prototype_armor_5_medium"
+			model = USA_prototype_armor_5_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_aa_chassis_1
+			amount = 100
+			variant_name = "T52 Multiple Gun Motor Carriage"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_aa_chassis_1
+				version_name = "T52 Multiple Gun Motor Carriage"
+			}
+			requested_factories = 2
+			progress = 0.3
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "T52 Multiple Gun Motor Carriage"
+			type = light_tank_aa_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_light_twin_autocannons
+				turret_type_slot = tank_rotating_light_turret
+				special_type_slot_1 = tank_radio_1
+				suspension_type_slot = tank_half_track_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_USA_prototype_armor_5_medium"
+			model = USA_prototype_armor_5_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_aa_chassis_1
+			amount = 100
+			variant_name = "T52 Multiple Gun Motor Carriage"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_aa_chassis_1
+				version_name = "T52 Multiple Gun Motor Carriage"
+			}
+			requested_factories = 2
+			progress = 0.3
+			efficiency = 30
+		}
+	}
+}
+
+PVF_add_centaur_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_heavy_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Centaur FV4005"
+			type = heavy_tank_destroyer_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_183mm_gun
+				turret_type_slot = tank_heavy_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_ENG_prototype_armor_2_medium"
+			model = ENG_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = heavy_tank_destroyer_chassis_3
+			amount = 50
+			variant_name = "Centaur FV4005"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = heavy_tank_destroyer_chassis_3
+				version_name = "Centaur FV4005"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_heavy_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Centaur FV4005"
+			type = heavy_tank_destroyer_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_183mm_gun
+				turret_type_slot = tank_heavy_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_ENG_prototype_armor_2_medium"
+			model = ENG_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = heavy_tank_destroyer_chassis_2
+			amount = 50
+			variant_name = "Centaur FV4005"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = heavy_tank_destroyer_chassis_2
+				version_name = "Centaur FV4005"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_heavy_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Centaur FV4005"
+			type = heavy_tank_destroyer_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_183mm_gun
+				turret_type_slot = tank_heavy_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_ENG_prototype_armor_2_medium"
+			model = ENG_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = heavy_tank_destroyer_chassis_1
+			amount = 50
+			variant_name = "Centaur FV4005"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = heavy_tank_destroyer_chassis_1
+				version_name = "Centaur FV4005"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "Centaur FV4005"
+			type = heavy_tank_destroyer_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_183mm_gun
+				turret_type_slot = tank_heavy_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_ENG_prototype_armor_2_medium"
+			model = ENG_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = heavy_tank_destroyer_chassis_0
+			amount = 50
+			variant_name = "Centaur FV4005"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = heavy_tank_destroyer_chassis_0
+				version_name = "Centaur FV4005"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+}
+
+PVF_add_pawel_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_heavy_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Pawel Automobile Gun Carriage"
+			type = heavy_tank_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_multiple_heavy_guns
+				turret_type_slot = tank_multi_gun_casemate_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 4
+			}
+			icon = "GFX_POL_prototype_armor_0_medium"
+			model = POL_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = heavy_tank_chassis_3
+			amount = 50
+			variant_name = "Pawel Automobile Gun Carriage"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = heavy_tank_chassis_3
+				version_name = "Pawel Automobile Gun Carriage"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_heavy_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Pawel Automobile Gun Carriage"
+			type = heavy_tank_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_multiple_heavy_guns
+				turret_type_slot = tank_multi_gun_casemate_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 4
+			}
+			icon = "GFX_POL_prototype_armor_0_medium"
+			model = POL_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = heavy_tank_chassis_2
+			amount = 50
+			variant_name = "Pawel Automobile Gun Carriage"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = heavy_tank_chassis_2
+				version_name = "Pawel Automobile Gun Carriage"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_heavy_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Pawel Automobile Gun Carriage"
+			type = heavy_tank_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_multiple_heavy_guns
+				turret_type_slot = tank_multi_gun_casemate_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 4
+			}
+			icon = "GFX_POL_prototype_armor_0_medium"
+			model = POL_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = heavy_tank_chassis_1
+			amount = 50
+			variant_name = "Pawel Automobile Gun Carriage"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = heavy_tank_chassis_1
+				version_name = "Pawel Automobile Gun Carriage"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "Pawel Automobile Gun Carriage"
+			type = heavy_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_multiple_heavy_guns
+				turret_type_slot = tank_multi_gun_casemate_turret
+				special_type_slot_1 = secondary_turret_hmg
+				special_type_slot_2 = additional_machine_guns
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 4
+			}
+			icon = "GFX_POL_prototype_armor_0_medium"
+			model = POL_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = heavy_tank_chassis_0
+			amount = 50
+			variant_name = "Pawel Automobile Gun Carriage"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = heavy_tank_chassis_0
+				version_name = "Pawel Automobile Gun Carriage"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+}
+
+PVF_add_smk_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_heavy_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "SMK"
+			type = heavy_tank_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_dual_turret_mount
+				turret_type_slot = tank_heavy_three_man_tank_turret
+				special_type_slot_1 = secondary_turret_hmg
+				special_type_slot_2 = tank_radio_2
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 5
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_SOV_prototype_armor_1_medium"
+			model = SOV_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = heavy_tank_chassis_3
+			amount = 50
+			variant_name = "SMK"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = heavy_tank_chassis_3
+				version_name = "SMK"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_heavy_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "SMK"
+			type = heavy_tank_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_dual_turret_mount
+				turret_type_slot = tank_heavy_three_man_tank_turret
+				special_type_slot_1 = secondary_turret_hmg
+				special_type_slot_2 = tank_radio_2
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 5
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_SOV_prototype_armor_1_medium"
+			model = SOV_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = heavy_tank_chassis_2
+			amount = 50
+			variant_name = "SMK"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = heavy_tank_chassis_2
+				version_name = "SMK"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_heavy_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "SMK"
+			type = heavy_tank_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_dual_turret_mount
+				turret_type_slot = tank_heavy_three_man_tank_turret
+				special_type_slot_1 = secondary_turret_hmg
+				special_type_slot_2 = tank_radio_2
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 5
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_SOV_prototype_armor_1_medium"
+			model = SOV_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = heavy_tank_chassis_1
+			amount = 50
+			variant_name = "SMK"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = heavy_tank_chassis_1
+				version_name = "SMK"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "SMK"
+			type = heavy_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_dual_turret_mount
+				turret_type_slot = tank_heavy_three_man_tank_turret
+				special_type_slot_1 = secondary_turret_hmg
+				special_type_slot_2 = tank_radio_2
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 5
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_SOV_prototype_armor_1_medium"
+			model = SOV_prototype_armor_1_entity
+		}
+		add_equipment_to_stockpile = {
+			type = heavy_tank_chassis_0
+			amount = 50
+			variant_name = "SMK"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = heavy_tank_chassis_0
+				version_name = "SMK"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+}
+
+
+PVF_add_amx_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_medium_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "AMX Chasseur de char"
+			type = medium_tank_destroyer_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_90mm_gun
+				turret_type_slot = tank_medium_fixed_superstructure_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 5
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_FRA_prototype_armor_2_medium"
+			model = FRA_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_destroyer_chassis_3
+			amount = 50
+			variant_name = "AMX Chasseur de char"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_destroyer_chassis_3
+				version_name = "AMX Chasseur de char"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_medium_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "AMX Chasseur de char"
+			type = medium_tank_destroyer_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_90mm_gun
+				turret_type_slot = tank_medium_fixed_superstructure_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 5
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_FRA_prototype_armor_2_medium"
+			model = FRA_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_destroyer_chassis_2
+			amount = 50
+			variant_name = "AMX Chasseur de char"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_destroyer_chassis_2
+				version_name = "AMX Chasseur de char"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_medium_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "AMX Chasseur de char"
+			type = medium_tank_destroyer_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_90mm_gun
+				turret_type_slot = tank_medium_fixed_superstructure_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 5
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_FRA_prototype_armor_2_medium"
+			model = FRA_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_destroyer_chassis_1
+			amount = 50
+			variant_name = "AMX Chasseur de char"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_destroyer_chassis_1
+				version_name = "AMX Chasseur de char"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "AMX Chasseur de char"
+			type = medium_tank_destroyer_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_90mm_gun
+				turret_type_slot = tank_medium_fixed_superstructure_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 5
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_FRA_prototype_armor_2_medium"
+			model = FRA_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_destroyer_chassis_0
+			amount = 50
+			variant_name = "AMX Chasseur de char"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_destroyer_chassis_0
+				version_name = "AMX Chasseur de char"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+}
+
+
+PVF_add_stg_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_medium_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Gremyakin STG"
+			type = medium_tank_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_medium_cannon_2
+				turret_type_slot = tank_rear_mounted_turret
+				special_type_slot_1 = sloped_armor
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_diesel_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_SOV_prototype_armor_2_medium"
+			model = SOV_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_chassis_3
+			amount = 100
+			variant_name = "Gremyakin STG"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_chassis_3
+				version_name = "Gremyakin STG"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_medium_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Gremyakin STG"
+			type = medium_tank_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_medium_cannon_2
+				turret_type_slot = tank_rear_mounted_turret
+				special_type_slot_1 = sloped_armor
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_diesel_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_SOV_prototype_armor_2_medium"
+			model = SOV_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_chassis_2
+			amount = 100
+			variant_name = "Gremyakin STG"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_chassis_2
+				version_name = "Gremyakin STG"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_medium_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Gremyakin STG"
+			type = medium_tank_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_medium_cannon_2
+				turret_type_slot = tank_rear_mounted_turret
+				special_type_slot_1 = sloped_armor
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_diesel_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_SOV_prototype_armor_2_medium"
+			model = SOV_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_chassis_1
+			amount = 100
+			variant_name = "Gremyakin STG"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_chassis_1
+				version_name = "Gremyakin STG"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "Gremyakin STG"
+			type = medium_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_medium_cannon_2
+				turret_type_slot = tank_rear_mounted_turret
+				special_type_slot_1 = sloped_armor
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_diesel_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_SOV_prototype_armor_2_medium"
+			model = SOV_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_chassis_0
+			amount = 100
+			variant_name = "Gremyakin STG"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_chassis_0
+				version_name = "Gremyakin STG"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+}
+
+PVF_add_yoh_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_medium_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "M-V-Yoh"
+			type = medium_tank_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_autoloader_gun
+				turret_type_slot = tank_oscillating_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_diesel_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 4
+				tank_nsb_armor_upgrade = 4
+			}
+			icon = "GFX_USA_prototype_armor_3_medium"
+			model = USA_prototype_armor_3_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_chassis_3
+			amount = 100
+			variant_name = "M-V-Yoh"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_chassis_3
+				version_name = "M-V-Yoh"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_medium_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "M-V-Yoh"
+			type = medium_tank_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_autoloader_gun
+				turret_type_slot = tank_oscillating_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_diesel_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 4
+				tank_nsb_armor_upgrade = 4
+			}
+			icon = "GFX_USA_prototype_armor_3_medium"
+			model = USA_prototype_armor_3_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_chassis_2
+			amount = 100
+			variant_name = "M-V-Yoh"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_chassis_2
+				version_name = "M-V-Yoh"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_medium_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "M-V-Yoh"
+			type = medium_tank_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_autoloader_gun
+				turret_type_slot = tank_oscillating_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_diesel_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 4
+				tank_nsb_armor_upgrade = 4
+			}
+			icon = "GFX_USA_prototype_armor_3_medium"
+			model = USA_prototype_armor_3_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_chassis_1
+			amount = 100
+			variant_name = "M-V-Yoh"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_chassis_1
+				version_name = "M-V-Yoh"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "M-V-Yoh"
+			type = medium_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_autoloader_gun
+				turret_type_slot = tank_oscillating_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_diesel_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 4
+				tank_nsb_armor_upgrade = 4
+			}
+			icon = "GFX_USA_prototype_armor_3_medium"
+			model = USA_prototype_armor_3_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_tank_chassis_0
+			amount = 100
+			variant_name = "M-V-Yoh"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_tank_chassis_0
+				version_name = "M-V-Yoh"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+}
+
+
+PVF_add_fcm_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "FCM 12t"
+			type = light_tank_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon_2
+				turret_type_slot = tank_light_two_man_tank_turret
+				suspension_type_slot = tank_lightweight_torsion_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_FRA_prototype_armor_3_medium"
+			model = FRA_prototype_armor_3_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis_3
+			amount = 50
+			variant_name = "FCM 12t"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_chassis_3
+				version_name = "FCM 12t"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "FCM 12t"
+			type = light_tank_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon_2
+				turret_type_slot = tank_light_two_man_tank_turret
+				suspension_type_slot = tank_lightweight_torsion_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_FRA_prototype_armor_3_medium"
+			model = FRA_prototype_armor_3_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis_2
+			amount = 50
+			variant_name = "FCM 12t"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_chassis_2
+				version_name = "FCM 12t"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "FCM 12t"
+			type = light_tank_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon_2
+				turret_type_slot = tank_light_two_man_tank_turret
+				suspension_type_slot = tank_lightweight_torsion_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_FRA_prototype_armor_3_medium"
+			model = FRA_prototype_armor_3_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis_1
+			amount = 50
+			variant_name = "FCM 12t"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_chassis_1
+				version_name = "FCM 12t"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "FCM 12t"
+			type = light_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon_2
+				turret_type_slot = tank_light_two_man_tank_turret
+				suspension_type_slot = tank_lightweight_torsion_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_FRA_prototype_armor_3_medium"
+			model = FRA_prototype_armor_3_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis_0
+			amount = 50
+			variant_name = "FCM 12t"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_chassis_0
+				version_name = "FCM 12t"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+}
+
+PVF_add_cul_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Culqualber and Uolchefit Tank"
+			type = light_tank_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_improvised_mg
+				turret_type_slot = tank_makeshift_armor_hull
+				suspension_type_slot = tank_bogie_suspension
+				special_type_slot_1 = additional_machine_guns
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_ITA_prototype_armor_2_medium"
+			model = ITA_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis_3
+			amount = 50
+			variant_name = "Culqualber and Uolchefit Tank"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_chassis_3
+				version_name = "Culqualber and Uolchefit Tank"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Culqualber and Uolchefit Tank"
+			type = light_tank_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_improvised_mg
+				turret_type_slot = tank_makeshift_armor_hull
+				suspension_type_slot = tank_bogie_suspension
+				special_type_slot_1 = additional_machine_guns
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_ITA_prototype_armor_2_medium"
+			model = ITA_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis_2
+			amount = 50
+			variant_name = "Culqualber and Uolchefit Tank"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_chassis_2
+				version_name = "Culqualber and Uolchefit Tank"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Culqualber and Uolchefit Tank"
+			type = light_tank_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_improvised_mg
+				turret_type_slot = tank_makeshift_armor_hull
+				suspension_type_slot = tank_bogie_suspension
+				special_type_slot_1 = additional_machine_guns
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_ITA_prototype_armor_2_medium"
+			model = ITA_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis_1
+			amount = 50
+			variant_name = "Culqualber and Uolchefit Tank"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_chassis_1
+				version_name = "Culqualber and Uolchefit Tank"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "Culqualber and Uolchefit Tank"
+			type = light_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_improvised_mg
+				turret_type_slot = tank_makeshift_armor_hull
+				suspension_type_slot = tank_bogie_suspension
+				special_type_slot_1 = additional_machine_guns
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_ITA_prototype_armor_2_medium"
+			model = ITA_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis_0
+			amount = 50
+			variant_name = "Culqualber and Uolchefit Tank"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_chassis_0
+				version_name = "Culqualber and Uolchefit Tank"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+}
+
+
+PVF_add_mtls_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Marmon-Herrington MTLS-1G14"
+			type = light_tank_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_dual_guns
+				turret_type_slot = tank_twin_cannon_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_HOL_prototype_armor_0_medium"
+			model = HOL_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis_3
+			amount = 50
+			variant_name = "Marmon-Herrington MTLS-1G14"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_chassis_3
+				version_name = "Marmon-Herrington MTLS-1G14"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Marmon-Herrington MTLS-1G14"
+			type = light_tank_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_dual_guns
+				turret_type_slot = tank_twin_cannon_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_HOL_prototype_armor_0_medium"
+			model = HOL_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis_2
+			amount = 50
+			variant_name = "Marmon-Herrington MTLS-1G14"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_chassis_2
+				version_name = "Marmon-Herrington MTLS-1G14"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "Marmon-Herrington MTLS-1G14"
+			type = light_tank_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_dual_guns
+				turret_type_slot = tank_twin_cannon_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_HOL_prototype_armor_0_medium"
+			model = HOL_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis_1
+			amount = 50
+			variant_name = "Marmon-Herrington MTLS-1G14"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_chassis_1
+				version_name = "Marmon-Herrington MTLS-1G14"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "Marmon-Herrington MTLS-1G14"
+			type = light_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_dual_guns
+				turret_type_slot = tank_twin_cannon_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_HOL_prototype_armor_0_medium"
+			model = HOL_prototype_armor_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = light_tank_chassis_0
+			amount = 50
+			variant_name = "Marmon-Herrington MTLS-1G14"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = light_tank_chassis_0
+				version_name = "Marmon-Herrington MTLS-1G14"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+}
+
+PVF_add_t43_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_light_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "T43E1"
+			type = heavy_tank_chassis_3
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_heavy_cannon_2
+				turret_type_slot = tank_heavy_three_man_tank_turret
+				special_type_slot_1 = tank_radio_2
+				special_type_slot_2 = tank_dozer_blade
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_USA_prototype_armor_2_medium"
+			model = USA_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = heavy_tank_chassis_3
+			amount = 50
+			variant_name = "T43E1"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = heavy_tank_chassis_3
+				version_name = "T43E1"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_heavy_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "T43E1"
+			type = heavy_tank_chassis_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_heavy_cannon_2
+				turret_type_slot = tank_heavy_three_man_tank_turret
+				special_type_slot_1 = tank_radio_2
+				special_type_slot_2 = tank_dozer_blade
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_USA_prototype_armor_2_medium"
+			model = USA_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = heavy_tank_chassis_2
+			amount = 50
+			variant_name = "T43E1"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = heavy_tank_chassis_2
+				version_name = "T43E1"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_heavy_tank_chassis
+		}
+		create_equipment_variant = {
+			name = "T43E1"
+			type = heavy_tank_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_heavy_cannon_2
+				turret_type_slot = tank_heavy_three_man_tank_turret
+				special_type_slot_1 = tank_radio_2
+				special_type_slot_2 = tank_dozer_blade
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_USA_prototype_armor_2_medium"
+			model = USA_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = heavy_tank_chassis_1
+			amount = 50
+			variant_name = "T43E1"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = heavy_tank_chassis_1
+				version_name = "T43E1"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = gwtank_chassis
+		}
+		create_equipment_variant = {
+			name = "T43E1"
+			type = heavy_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_heavy_cannon_2
+				turret_type_slot = tank_heavy_three_man_tank_turret
+				special_type_slot_1 = tank_radio_2
+				special_type_slot_2 = tank_dozer_blade
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "GFX_USA_prototype_armor_2_medium"
+			model = USA_prototype_armor_2_entity
+		}
+		add_equipment_to_stockpile = {
+			type = heavy_tank_chassis_0
+			amount = 50
+			variant_name = "T43E1"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = heavy_tank_chassis_0
+				version_name = "T43E1"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+}
+
+PVF_add_voss_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_medium_airframe
+		}
+		create_equipment_variant = {
+			name = "Blohm und Voss Bv 141"
+			type = medium_plane_scout_plane_airframe_3
+			parent_version = 0
+			modules = {
+				fixed_main_weapon_slot = recon_camera
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = fuel_tanks_medium
+				special_type_slot_2 = asymmetrical_cockpit
+			}
+			icon = "GFX_GER_prototype_plane_0_medium"
+			model = GER_prototype_plane_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_plane_scout_plane_airframe_3
+			amount = 50
+			variant_name = "Blohm und Voss Bv 141"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_plane_scout_plane_airframe_3
+				version_name = "Blohm und Voss Bv 141"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_medium_airframe
+		}
+		create_equipment_variant = {
+			name = "Blohm und Voss Bv 141"
+			type = medium_plane_scout_plane_airframe_2
+			parent_version = 0
+			modules = {
+				fixed_main_weapon_slot = recon_camera
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = fuel_tanks_medium
+				special_type_slot_2 = asymmetrical_cockpit
+			}
+			icon = "GFX_GER_prototype_plane_0_medium"
+			model = GER_prototype_plane_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_plane_scout_plane_airframe_2
+			amount = 50
+			variant_name = "Blohm und Voss Bv 141"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_plane_scout_plane_airframe_2
+				version_name = "Blohm und Voss Bv 141"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_medium_airframe
+		}
+		create_equipment_variant = {
+			name = "Blohm und Voss Bv 141"
+			type = medium_plane_scout_plane_airframe_1
+			parent_version = 0
+			modules = {
+				fixed_main_weapon_slot = recon_camera
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = fuel_tanks_medium
+				special_type_slot_2 = asymmetrical_cockpit
+			}
+			icon = "GFX_GER_prototype_plane_0_medium"
+			model = GER_prototype_plane_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_plane_scout_plane_airframe_1
+			amount = 50
+			variant_name = "Blohm und Voss Bv 141"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_plane_scout_plane_airframe_1
+				version_name = "Blohm und Voss Bv 141"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = iw_medium_airframe
+		}
+		create_equipment_variant = {
+			name = "Blohm und Voss Bv 141"
+			type = medium_plane_scout_plane_airframe_0
+			parent_version = 0
+			modules = {
+				fixed_main_weapon_slot = recon_camera
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = fuel_tanks_medium
+				special_type_slot_2 = asymmetrical_cockpit
+			}
+			icon = "GFX_GER_prototype_plane_0_medium"
+			model = GER_prototype_plane_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_plane_scout_plane_airframe_0
+			amount = 50
+			variant_name = "Blohm und Voss Bv 141"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_plane_scout_plane_airframe_0
+				version_name = "Blohm und Voss Bv 141"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+}
+
+PVF_add_bel_template = {
+	if = {
+		limit = { 
+			has_tech = advanced_medium_airframe
+		}
+		create_equipment_variant = {
+			name = "Belyayev DB-LK"
+			type = medium_plane_airframe_3
+			parent_version = 0
+			modules = {
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = bomb_locks
+				engine_type_slot = engine_2_3x
+				special_type_slot_1 = dual_fuselage_cockpit
+				special_type_slot_2 = hmg_defense_turret_2x
+				special_type_slot_3 = radio_navigation_2
+			}
+			icon = "GFX_SOV_prototype_plane_0_medium"
+			model = SOV_prototype_plane_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_plane_airframe_3
+			amount = 50
+			variant_name = "Belyayev DB-LK"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_plane_airframe_3
+				version_name = "Belyayev DB-LK"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = improved_medium_airframe
+		}
+		create_equipment_variant = {
+			name = "Belyayev DB-LK"
+			type = medium_plane_airframe_2
+			parent_version = 0
+			modules = {
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = bomb_locks
+				engine_type_slot = engine_2_3x
+				special_type_slot_1 = dual_fuselage_cockpit
+				special_type_slot_2 = hmg_defense_turret_2x
+				special_type_slot_3 = radio_navigation_2
+			}
+			icon = "GFX_SOV_prototype_plane_0_medium"
+			model = SOV_prototype_plane_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_plane_airframe_2
+			amount = 50
+			variant_name = "Belyayev DB-LK"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_plane_airframe_2
+				version_name = "Belyayev DB-LK"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = { 
+			has_tech = basic_medium_airframe
+		}
+		create_equipment_variant = {
+			name = "Belyayev DB-LK"
+			type = medium_plane_airframe_1
+			parent_version = 0
+			modules = {
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = bomb_locks
+				engine_type_slot = engine_2_3x
+				special_type_slot_1 = dual_fuselage_cockpit
+				special_type_slot_2 = hmg_defense_turret_2x
+				special_type_slot_3 = radio_navigation_2
+			}
+			icon = "GFX_SOV_prototype_plane_0_medium"
+			model = SOV_prototype_plane_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_plane_airframe_1
+			amount = 50
+			variant_name = "Belyayev DB-LK"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_plane_airframe_1
+				version_name = "Belyayev DB-LK"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+	else_if = {
+		limit = {
+			has_tech = iw_medium_airframe
+		}
+		create_equipment_variant = {
+			name = "Belyayev DB-LK"
+			type = medium_plane_airframe_0
+			parent_version = 0
+			modules = {
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = bomb_locks
+				engine_type_slot = engine_2_3x
+				special_type_slot_1 = dual_fuselage_cockpit
+				special_type_slot_2 = hmg_defense_turret_2x
+				special_type_slot_3 = radio_navigation_2
+			}
+			icon = "GFX_SOV_prototype_plane_0_medium"
+			model = SOV_prototype_plane_0_entity
+		}
+		add_equipment_to_stockpile = {
+			type = medium_plane_airframe_0
+			amount = 50
+			variant_name = "Belyayev DB-LK"
+		}
+		add_equipment_production = {
+			equipment = { 
+				type = medium_plane_airframe_0
+				version_name = "Belyayev DB-LK"
+			}
+			requested_factories = 2
+			progress = 0.6
+			efficiency = 30
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PVF_add_biemmi_template = {
+	create_equipment_variant = {
+		name = "Biemmi Naval Tank"
+		type = amphibious_tank_chassis_1
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_naval_gun
+			turret_type_slot = tank_light_two_man_tank_turret
+			suspension_type_slot = tank_all_round_track_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 2
+			tank_nsb_armor_upgrade = 3
+		}
+		icon = "GFX_ITA_prototype_armor_1_medium"
+		model = ITA_prototype_armor_1_entity
+	}
+	add_equipment_to_stockpile = {
+		type = amphibious_tank_chassis_1
+		amount = 50
+		variant_name = "Biemmi Naval Tank"
+	}
+	add_equipment_production = {
+		equipment = { 
+			type = amphibious_tank_chassis_1
+			version_name = "Biemmi Naval Tank"
+		}
+		requested_factories = 2
+		progress = 0.6
+		efficiency = 30
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PVF_add_modra_template = {
+	create_equipment_variant = {
+		name = "Modra Revolving Tank"
+		type = modra_revolving_tank_equipment_1
+		parent_version = 0
+		mark_older_equipment_obsolete = yes
+		upgrades = {
+			tank_reliability_upgrade = 1
+			tank_engine_upgrade = 1
+			tank_armor_upgrade = 1
+			tank_gun_upgrade = 0
+		}
+		icon = "GFX_AST_prototype_armor_0_medium"
+		model = AST_prototype_armor_0_entity
+	}
+	add_equipment_to_stockpile = {
+		type = modra_revolving_tank_equipment_1
+		amount = 100
+		variant_name = "Modra Revolving Tank"
+	}
+	add_equipment_production = {
+		equipment = { 
+			type = modra_revolving_tank_equipment_1
+			version_name = "Modra Revolving Tank"
+		}
+		requested_factories = 2
+		progress = 0.8
+		efficiency = 30
+	}
+}
+
+PVF_add_giacomini_template = {
+	create_equipment_variant = {
+		name = "Giacomini Entrenchment Tank"
+		type = dozer_tank_equipment_1
+		parent_version = 0
+		mark_older_equipment_obsolete = yes
+		upgrades = {
+			tank_reliability_upgrade = 1
+			tank_engine_upgrade = 1
+			tank_armor_upgrade = 1
+			tank_gun_upgrade = 0
+		}
+		icon = "GFX_FRA_prototype_armor_1_medium"
+		model = FRA_prototype_armor_1_entity
+	}
+	add_equipment_to_stockpile = {
+		type = dozer_tank_equipment_1
+		amount = 100
+		variant_name = "Giacomini Entrenchment Tank"
+	}
+	add_equipment_production = {
+		equipment = { 
+			type = dozer_tank_equipment_1
+			version_name = "Giacomini Entrenchment Tank"
+		}
+		requested_factories = 2
+		progress = 0.8
+		efficiency = 40
+	}
+}
+
+
+PVF_add_jac_template = {
+	create_equipment_variant = {
+		name = "Jacquet Articulated Tank"
+		type = articulated_tank_equipment_1
+		parent_version = 0
+		mark_older_equipment_obsolete = yes
+		upgrades = {
+			tank_reliability_upgrade = 2
+			tank_engine_upgrade = 2
+			tank_armor_upgrade = 0
+			tank_gun_upgrade = 0
+		}
+		icon = "GFX_FRA_prototype_armor_4_medium"
+		model = FRA_prototype_armor_4_entity
+	}
+	add_equipment_to_stockpile = {
+		type = articulated_tank_equipment_1
+		amount = 100
+		variant_name = "Jacquet Articulated Tank"
+	}
+	add_equipment_production = {
+		equipment = { 
+			type = articulated_tank_equipment_1
+			version_name = "Jacquet Articulated Tank"
+		}
+		requested_factories = 2
+		progress = 0.8
+		efficiency = 50
+	}
+}
+
+PVF_add_skoda_template = {
+	create_equipment_variant = {
+		name = "Skoda SK 13"
+		type = halftrack_transport_equipment_1
+		parent_version = 0
+		mark_older_equipment_obsolete = yes
+		upgrades = {
+			tank_reliability_upgrade = 2
+			tank_engine_upgrade = 2
+			tank_armor_upgrade = 0
+			tank_gun_upgrade = 0
+		}
+		icon = "GFX_CZE_prototype_armor_0_medium"
+		model = CZE_prototype_armor_0_entity
+	}
+	add_equipment_to_stockpile = {
+		type = halftrack_transport_equipment_1
+		amount = 100
+		variant_name = "Skoda SK 13"
+	}
+	add_equipment_production = {
+		equipment = { 
+			type = halftrack_transport_equipment_1
+			version_name = "Skoda SK 13"
+		}
+		requested_factories = 2
+		progress = 0.8
+		efficiency = 50
+	}
+}
+
+PVF_add_motoguzzi_template = {
+	create_equipment_variant = {
+		name = "Motoguzzi Semovente da 65/17"
+		type = light_gun_carrier_equipment_1
+		parent_version = 0
+		mark_older_equipment_obsolete = yes
+		upgrades = {
+			tank_reliability_upgrade = 0
+			tank_engine_upgrade = 1
+			tank_armor_upgrade = 0
+			tank_gun_upgrade = 2
+		}
+		icon = "GFX_ITA_prototype_armor_0_medium"
+		model = ITA_prototype_armor_0_entity
+	}
+	add_equipment_to_stockpile = {
+		type = light_gun_carrier_equipment_1
+		amount = 100
+		variant_name = "Motoguzzi Semovente da 65/17"
+	}
+	add_equipment_production = {
+		equipment = { 
+			type = light_gun_carrier_equipment_1
+			version_name = "Motoguzzi Semovente da 65/17"
+		}
+		requested_factories = 2
+		progress = 0.8
+		efficiency = 50
+	}
+}
+
+PVF_add_ksp_template = {
+	create_equipment_variant = {
+		name = "KSP-76"
+		type = open_topped_spg_equipment_1
+		parent_version = 0
+		mark_older_equipment_obsolete = yes
+		upgrades = {
+			tank_reliability_upgrade = 0
+			tank_engine_upgrade = 1
+			tank_armor_upgrade = 0
+			tank_gun_upgrade = 2
+		}
+		icon = "GFX_SOV_prototype_armor_0_medium"
+		model = SOV_prototype_armor_0_entity
+	}
+	add_equipment_to_stockpile = {
+		type = open_topped_spg_equipment_1
+		amount = 100
+		variant_name = "KSP-76"
+	}
+	add_equipment_production = {
+		equipment = { 
+			type = open_topped_spg_equipment_1
+			version_name = "KSP-76"
+		}
+		requested_factories = 2
+		progress = 0.8
+		efficiency = 50
+	}
+}
+
+PVF_add_oka_template = {
+	create_equipment_variant = {
+		name = "2B1 'Oka'"
+		type = ultra_heavy_artillery_equipment_1
+		parent_version = 0
+		mark_older_equipment_obsolete = yes
+		upgrades = {
+			tank_reliability_upgrade = 0
+			tank_engine_upgrade = 0
+			tank_armor_upgrade = 0
+			tank_gun_upgrade = 0
+		}
+		icon = "GFX_SOV_prototype_armor_3_medium"
+		model = SOV_prototype_armor_3_entity
+	}
+	add_equipment_to_stockpile = {
+		type = ultra_heavy_artillery_equipment_1
+		amount = 20
+		variant_name = "2B1 'Oka'"
+	}
+	add_equipment_production = {
+		equipment = { 
+			type = ultra_heavy_artillery_equipment_1
+			version_name = "2B1 'Oka'"
+		}
+		requested_factories = 2
+		progress = 0.8
+		efficiency = 50
+	}
+}
+
+PVF_add_cobra_template = {
+	create_equipment_variant = {
+		name = "Cobra LCCCV"
+		type = combat_vehicle_equipment_1
+		parent_version = 1
+		mark_older_equipment_obsolete = yes
+		upgrades = {
+			tank_reliability_upgrade = 0
+			tank_engine_upgrade = 2
+			tank_armor_upgrade = 0
+			mech_cost_upgrade = 1
+		}
+		icon = "GFX_USA_prototype_armor_4_medium"
+		model = USA_prototype_armor_4_entity
+	}
+	add_equipment_to_stockpile = {
+		type = combat_vehicle_equipment_1
+		amount = 100
+		variant_name = "Cobra LCCCV"
+	}
+	add_equipment_production = {
+		equipment = { 
+			type = combat_vehicle_equipment_1
+			version_name = "Cobra LCCCV"
+		}
+		requested_factories = 2
+		progress = 0.8
+		efficiency = 50
+	}
+}
+
+
+
+
+
+PVF_add_natter_template = {
+	create_equipment_variant = {
+		name = "Bachem Ba 349 Natter"
+		type = vertical_launch_interceptor_equipment_1
+		parent_version = 1
+		mark_older_equipment_obsolete = yes
+		upgrades = {
+			plane_range_upgrade = 1
+			plane_engine_upgrade = 0
+			plane_reliability_upgrade = 1
+			plane_gun_upgrade = 0
+		}
+	}
+	add_equipment_to_stockpile = {
+		type = vertical_launch_interceptor_equipment_1
+		amount = 100
+		variant_name = "Bachem Ba 349 Natter"
+	}
+	add_equipment_production = {
+		equipment = { 
+			type = vertical_launch_interceptor_equipment_1
+			version_name = "Bachem Ba 349 Natter"
+		}
+		requested_factories = 2
+		progress = 0.8
+		efficiency = 50
+	}
+}
+
+
+PVF_add_whit_template = {
+	create_equipment_variant = {
+		name = "Armstrong Whitworth AW52"
+		type = flying_wing_jet_equipment_1
+		parent_version = 0
+		mark_older_equipment_obsolete = yes
+		upgrades = {
+			plane_range_upgrade = 1
+			plane_engine_upgrade = 0
+			plane_reliability_upgrade = 1
+			plane_gun_upgrade = 0
+		}
+	}
+	add_equipment_to_stockpile = {
+		type = flying_wing_jet_equipment_1
+		amount = 50
+		variant_name = "Armstrong Whitworth AW52"
+	}
+	add_equipment_production = {
+		equipment = { 
+			type = flying_wing_jet_equipment_1
+			version_name = "Armstrong Whitworth AW52"
+		}
+		requested_factories = 2
+		progress = 0.8
+		efficiency = 50
+	}
+}
+
+PVF_add_north_template = {
+	create_equipment_variant = {
+		name = "Northtrop XB-35"
+		type = flying_wing_bomber_equipment_1
+		parent_version = 1
+		mark_older_equipment_obsolete = yes
+		upgrades = {
+			plane_range_upgrade = 1
+			plane_engine_upgrade = 0
+			plane_reliability_upgrade = 1
+			plane_bomb_upgrade = 0
+		}
+		
+	}
+	add_equipment_to_stockpile = {
+		type = flying_wing_bomber_equipment_1
+		amount = 50
+		variant_name = "Northtrop XB-35"
+	}
+	add_equipment_production = {
+		equipment = { 
+			type = flying_wing_bomber_equipment_1
+			version_name = "Northtrop XB-35"
+		}
+		requested_factories = 2
+		progress = 0.8
+		efficiency = 50
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+# DOZER TANK
+equipments = {
+
+	light_gun_carrier_equipment = {
+		year = 1936
+
+		is_archetype = yes
+		is_buildable = no
+		#is_convertable = yes
+		picture = GFX_ITA_prototype_armor_0_medium
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+		
+		#Misc Abilities
+		maximum_speed = 10
+		reliability = 0.75
+		fuel_consumption = 0.6
+
+		#Defensive Abilities
+		defense = 3
+		breakthrough = 3
+		hardness = 0.25
+		armor_value = 5
+
+		#Offensive Abilities
+		soft_attack = 10
+		hard_attack = 1
+		ap_attack = 15
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+		
+		build_cost_ic = 5 
+		
+		resources = {
+			steel = 1
+		}
+		
+		
+	}
+
+	light_gun_carrier_equipment_1 = {
+		year = 1936
+
+		archetype = light_gun_carrier_equipment
+		priority = 50
+		visual_level = 1
+		#is_convertable = yes
+	}
+}
+

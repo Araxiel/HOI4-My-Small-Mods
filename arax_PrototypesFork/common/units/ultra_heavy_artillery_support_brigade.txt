@@ -1,0 +1,73 @@
+sub_units = {
+
+	ultra_heavy_artillery_support_brigade = { #
+		abbreviation = "UHASB"
+		sprite = self_propelled_super_heavy_artillery
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+
+		type = {
+			armor
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_artillery
+			category_support_artillery
+			category_army
+		}
+
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 0.2
+		max_organisation = 0
+		default_morale = 0.1
+		manpower = 500
+		training_time = 200
+		maximum_speed = -0.4
+
+		#Misc Abilities
+		weight = 6
+		supply_consumption = 1
+				
+
+		can_be_parachuted = no
+
+		essential = {
+			ultra_heavy_artillery_equipment
+		}
+
+		need = {
+			ultra_heavy_artillery_equipment_1 = 2
+		}
+
+		forest = {
+			attack = -0.3
+			movement = -0.2
+		}
+		hills = {
+			attack = -0.2
+			movement = -0.1
+		}
+		mountain = {
+			attack = -0.8
+			movement = -0.7
+		}
+		jungle = {
+			attack = -0.6
+			movement = -0.5
+		}
+		marsh = {
+			attack = -0.7
+			movement = -0.6
+		}
+
+	}
+}

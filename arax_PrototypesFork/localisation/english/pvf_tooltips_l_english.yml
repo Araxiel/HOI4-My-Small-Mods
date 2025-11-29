@@ -1,0 +1,16 @@
+﻿l_english:
+ PVF_projects_wont_work_properly:0 "The §YSpecial Projects§! will not work properly if this is not true!"
+ sp_light_sp_art_bonus:0 "Light SP Artillery Development"
+ sp_anti_tank_bonus:0 "Anti Tank Development"
+ sp_anti_air_bonus:0 "Anti Air Development"
+ sp_light_anti_air_bonus:0 "Light Anti Air Development"
+ sp_heavy_tank_bonus:0 "Heavy Tank Development"
+ sp_medium_tank_bonus:0 "Medium Tank Development"
+ sp_light_tank_bonus:0 "Light Tank Development"
+ sp_light_anti_tank_bonus:0 "Light SP Anti-Tank Development"
+ 
+ pvf_projects_might_be_buggy_tt:0 "Researching §YSpecial Projects§! that are not designed for the country you are playing can lead to §Rbugs!§!"
+ pvf_good_boy_tt:0 "§YWho's a good boy? Have a treat!§!"
+
+ has_prototype_vehicles_dlc:0 "Has the §YPrototype Vehicles DLC§! enabled."
+ pvf_available_for_all:0 "Has chosen to make the §YPrototype Vehicles Special Projects§! available for §Yall countries§!."

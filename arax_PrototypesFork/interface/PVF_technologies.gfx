@@ -1,0 +1,359 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_EMI_telescopic_mount"
+		textureFile = "gfx/interface/equipmentdesigner/telescopic_mount.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_helicopter_rotors"
+		textureFile = "gfx/interface/equipmentdesigner/helicopter_rotors.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_47mm_gun"
+		textureFile = "gfx/interface/equipmentdesigner/tank_47mm_gun.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_alecto_field_gun_mount"
+		textureFile = "gfx/interface/equipmentdesigner/tank_47mm_gun.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_94mm_gun"
+		textureFile = "gfx/interface/equipmentdesigner/tank_94mm_gun.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_183mm_gun"
+		textureFile = "gfx/interface/equipmentdesigner/tank_183mm_gun.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_90mm_gun"
+		textureFile = "gfx/interface/equipmentdesigner/tank_183mm_gun.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_pak_43_gun"
+		textureFile = "gfx/interface/equipmentdesigner/tank_183mm_gun.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_lightweight_torsion_suspension"
+		textureFile = "gfx/interface/equipmentdesigner/lightweight_torsion_suspension.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_twin_autocannons"
+		textureFile = "gfx/interface/equipmentdesigner/tank_twin_autocannons.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_light_twin_autocannons"
+		textureFile = "gfx/interface/equipmentdesigner/tank_twin_autocannons.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_rotating_light_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tank_rotating_light_turret.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_dual_turret_mount"
+		textureFile = "gfx/interface/equipmentdesigner/tank_dual_turret_mount.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_pedestal_gun_mount"
+		textureFile = "gfx/interface/equipmentdesigner/tank_pedestal_gun_mount.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_rear_mounted_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tank_rear_mounted_turret.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_small_rear_mounted_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tank_rear_mounted_turret.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_dual_guns"
+		textureFile = "gfx/interface/equipmentdesigner/tank_dual_guns.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_twin_cannon_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tank_twin_cannon_turret.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_medium_twin_cannon_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tank_twin_cannon_turret.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_oscillating_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tank_oscillating_turret.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_autoloader_gun"
+		textureFile = "gfx/interface/equipmentdesigner/tank_autoloader_gun.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_oqf_medium_fixed_superstructure_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tank_oqf_medium_fixed_superstructure_turret.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_t82_light_fixed_superstructure_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tank_oqf_medium_fixed_superstructure_turret.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_m5_light_fixed_superstructure_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tank_oqf_medium_fixed_superstructure_turret.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_alecto_light_fixed_superstructure_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tank_oqf_medium_fixed_superstructure_turret.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_mkv_light_fixed_superstructure_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tank_oqf_medium_fixed_superstructure_turret.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_dozer_blade"
+		textureFile = "gfx/interface/equipmentdesigner/tank_dozer_blade.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_t82_howitzer"
+		textureFile = "gfx/interface/equipmentdesigner/tank_t82_howitzer.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_m5_anti_tank_gun"
+		textureFile = "gfx/interface/equipmentdesigner/tank_m5_anti_tank_gun.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_chiha_rockets"
+		textureFile = "gfx/interface/equipmentdesigner/tank_chiha_rockets.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_multi_gun_casemate_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tank_multi_gun_casemate_turret.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_multiple_heavy_guns"
+		textureFile = "gfx/interface/equipmentdesigner/tank_multiple_heavy_guns.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_coal_engine"
+		textureFile = "gfx/interface/equipmentdesigner/tank_coal_engine.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_all_round_track_suspension"
+		textureFile = "gfx/interface/equipmentdesigner/tank_all_round_track_suspension.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_naval_gun"
+		textureFile = "gfx/interface/equipmentdesigner/tank_naval_gun.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_makeshift_armor_hull"
+		textureFile = "gfx/interface/equipmentdesigner/tank_makeshift_armor_hull.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_asymmetrical_cockpit"
+		textureFile = "gfx/interface/equipmentdesigner/asymmetrical_cockpit.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_dual_fuselage_cockpit"
+		textureFile = "gfx/interface/equipmentdesigner/dual_fuselage_cockpit.dds"
+		legacy_lazy_load = no
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	spriteType = {
+		name = "GFX_EMI_tank_improvised_mg"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_additional_machine_guns.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_small_special_main_armament"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_secondary_turret_small_cannon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_amphibious_drive_dumay"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_amphibious_drive.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_medium_special_main_armament"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_fixed_superstructure.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_heavy_special_main_armament"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_fixed_superstructure.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_naval_special_main_armament"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_fixed_superstructure.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_soto_light_fixed_superstructure_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_fixed_superstructure.dds"
+		legacy_lazy_load = no
+	}
+
+
+	spriteType = {
+		name = "GFX_FRA_prototype_armor_1_medium"
+		texturefile = "gfx/interface/prototype_vehicles/FRA_prototype_armor_1.dds"
+	}
+
+
+
+
+
+
+
+
+
+	SpriteType = {
+		name = "GFX_dozer_tank_equipment_medium" #Dozer Tank
+		texturefile = "gfx/interface/prototype_vehicles/FRA_prototype_armor_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modra_revolving_tank_equipment_medium" #Modra Tank
+		texturefile = "gfx/interface/prototype_vehicles/AST_prototype_armor_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_articulated_tank_equipment_medium" #Jacquet Articulated Tank
+		texturefile = "gfx/interface/prototype_vehicles/FRA_prototype_armor_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_halftrack_transport_equipment_medium" #Skoda SK 13
+		texturefile = "gfx/interface/prototype_vehicles/CZE_prototype_armor_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_gun_carrier_equipment_medium" #Motoguzzi Semovente da 65/17
+		texturefile = "gfx/interface/prototype_vehicles/ITA_prototype_armor_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_open_topped_spg_equipment_medium" #KSP-76
+		texturefile = "gfx/interface/prototype_vehicles/SOV_prototype_armor_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ultra_heavy_artillery_equipment_medium" #2B1 Oka
+		texturefile = "gfx/interface/prototype_vehicles/SOV_prototype_armor_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_combat_vehicle_equipment_medium" #Cobra LCCCV
+		texturefile = "gfx/interface/prototype_vehicles/USA_prototype_armor_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_vertical_launch_interceptor_equipment_medium" #Bachem Ba 349 Natter
+		texturefile = "gfx/interface/prototype_vehicles/GER_prototype_plane_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_flying_wing_jet_equipment_medium" #Armstrong Whitworth A.W.52
+		texturefile = "gfx/interface/prototype_vehicles/ENG_prototype_plane_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_flying_wing_bomber_equipment_medium" #Northtrop XB-35
+		texturefile = "gfx/interface/prototype_vehicles/USA_prototype_plane_0.dds"
+	}
+
+	
+
+
+
+	
+}

@@ -1,0 +1,293 @@
+﻿l_english:
+ telescopic_mount:0 "Telescopic Mount"
+ telescopic_mount_desc:0 "A hinged, telescoping turret frame that lifts the weapon above walls, hedgerows, and rubble so the hull can stay hidden—excellent for ambush fire, but limited to light guns and slower, less stable when raised."
+
+ helicopter_rotors:0 "Helicopter Rotors"
+ helicopter_rotors_desc:0 "Rotors that let a tank hover short distances, granting superior mobility over rough terrain and obstacles at the cost of stability and armor."
+
+ tank_47mm_gun:0 "47mm Gun"
+ tank_47mm_gun_desc:0 "A high-velocity 47 mm anti-tank weapon that delivers excellent armor penetration, making it highly effective against enemy tanks. Its main drawback is its relatively heavy weight, which reduces ease of transport and quick repositioning."
+
+ tank_90mm_gun:0 "90mm Gun"
+ tank_90mm_gun_desc:0 "A 90 mm gun, providing excellent penetration and accuracy, allowing the tank to engage and defeat heavily armored targets effectively. The weapon also benefits from good rate of fire, giving it strong sustained firepower against both tanks and lighter vehicles."
+
+ tank_94mm_gun:0 "94mm Gun"
+ tank_94mm_gun_desc:0 "The 94 mm anti-air gun is a powerful heavy weapon capable of engaging high-altitude aircraft with great effectiveness. Its main drawback is its large size and weight, which limit mobility and make deployment slower."
+
+ tank_183mm_gun:0 "183mm Gun"
+ tank_183mm_gun_desc:0 "A massive 183 mm gun, that delivers unparalleled destructive power capable of knocking out even the heaviest tanks with a single hit, but is limited by its slow rate of fire and very low ammunition capacity."
+
+ tank_lightweight_torsion_suspension:0 "Lightweight Torsion Suspension"
+ tank_lightweight_torsion_suspension_desc:0 "An advanced design that cuts down on weight while enhancing speed and handling, making vehicles far more agile on the battlefield. Its reduced strength compared to heavier systems means less durability, but the mobility gains give a decisive tactical edge."
+ 
+ tank_pak_43_gun:0 "Steyr PaK 43 Gun"
+ tank_pak_43_gun_desc:0 "A long-barreled 88 mm anti-tank gun that delivers exceptional penetration and accuracy, capable of destroying even the heaviest enemy armor. Its drawback is the large size and weight, which make it difficult to mount and limit mobility."
+
+ tank_twin_autocannons:0 "Twin FlaK Autocannons"
+ tank_twin_autocannons_desc:0 "Twin 37 mm autocannons deliver a rapid and sustained rate of fire, making them highly effective against fast-moving aircraft, though their heavy ammunition load reduces overall mobility and endurance."
+
+ tank_light_twin_autocannons:0 "Twin FlaK Autocannons"
+ tank_light_twin_autocannons_desc:0 "Twin 37 mm autocannons deliver a rapid and sustained rate of fire, making them highly effective against fast-moving aircraft, though their heavy ammunition load reduces overall mobility and endurance."
+
+ tank_rotating_light_turret:0 "Rotating Anti-Air Turret"
+ tank_rotating_light_turret_desc:0 "A turret with a 37 mm autocannon that provides full 360-degree coverage, combining heavy punch with rapid fire to counter both aircraft and light ground targets."
+
+ tank_dual_turret_mount:0 "Dual Turret Mount"
+ tank_dual_turret_mount_desc:0 "An alternative design philosophy that adds a second main turret to the tank, allowing multiple guns to operate at once and greatly increasing firepower and battlefield flexibility. However, the added size, weight, and complexity reduce overall reliability and make the vehicle slower and more expensive to produce."
+
+ tank_pedestal_gun_mount:0 "Pedestal Anti-Tank Gun"
+ tank_pedestal_gun_mount_desc:0 "The pedestal anti-tank gun is a light weapon mounted on an open stand, giving it wide firing angles and mobility at the cost of protection."
+
+ tank_rear_mounted_turret:0 "Rear Mounted Turret"
+ tank_rear_mounted_turret_desc:0 "A turret mounted at the rear of the hull improves frontal armor layout and allows for heavier armament, but comes with engineering challenges and reduced situational awareness."
+
+ tank_small_rear_mounted_turret:0 "Rear Mounted Turret"
+ tank_small_rear_mounted_turret_desc:0 "A turret mounted at the rear of the hull improves frontal armor layout and allows for heavier armament, but comes with engineering challenges and reduced situational awareness."
+
+ tank_twin_cannon_turret:0 "Twin Cannon Turret"
+ tank_twin_cannon_turret_desc:0 "A rotating turret mounting dual cannons, providing continuous firepower and improved breakthrough but adding weight, complexity, and reduced reliability."
+
+ tank_medium_twin_cannon_turret:0 "Twin Cannon Turret"
+ tank_medium_twin_cannon_turret_desc:0 "A rotating turret mounting dual cannons, providing continuous firepower and improved breakthrough but adding weight, complexity, and reduced reliability."
+
+ tank_dual_guns:0 "Twin Light Cannon"
+ tank_dual_guns_desc:0 "A paired set of small-caliber guns that fire in rapid succession, greatly increasing rate of fire and soft attack at the cost of armor penetration."
+
+ tank_oscillating_turret:0 "Oscillating Turret"
+ tank_oscillating_turret_desc:0 "A two-part turret design where the gun is fixed to the upper section, allowing for a compact profile and improved firepower at the cost of mechanical complexity."
+
+ tank_autoloader_gun:0 "Autoloader Gun"
+ tank_autoloader_gun_desc:0 "A mechanical loading mechanism that increases the gun's rate of fire and reduces crew requirements, but adds weight, cost, and reduced reliability."
+
+ tank_dozer_blade:0 "Dozer Blade"
+ tank_dozer_blade_desc:0 "A heavy metal plate mounted at the front of a vehicle, used to clear obstacles, move earth, and prepare defensive positions by pushing soil and debris."
+
+ tank_t82_light_fixed_superstructure_turret:0 "Open-Topped Fixed Superstructure"
+ tank_t82_light_fixed_superstructure_turret_desc:0 "A casemate-style mount that holds the 105 mm howitzer in place, giving wide traverse to the gun while keeping the overall vehicle low and light."
+
+ tank_t82_howitzer:0 "T82 Medium Howitzer"
+ tank_t82_howitzer_desc:0 "A short-barreled 105 mm gun designed for close fire support, delivering powerful high-explosive shells effective against infantry, fortifications, and light vehicles. Its limited muzzle velocity makes it less suited for long-range accuracy or armor penetration, but highly effective in its intended support role."
+
+ tank_m5_light_fixed_superstructure_turret:0 "Light Rear Superstructure"
+ tank_m5_light_fixed_superstructure_turret_desc:0 "A fixed, open-topped casemate, providing just enough frontal armor to shield the gun crew while leaving the sides and top exposed."
+
+ tank_m5_anti_tank_gun:0 "Light Heavy AT Gun"
+ tank_m5_anti_tank_gun_desc:0 "A 3-inch (76.2 mm) anti-tank gun, capable of delivering strong penetration against armored targets but too heavy for the light chassis, making the vehicle difficult to balance."
+
+ tank_chiha_rockets:0 "Bangalore Torpedo Launchers"
+ tank_chiha_rockets_desc:0 "Simple frame-mounted tubes designed to fire explosive projectiles in volleys, providing powerful area saturation and demolition capability, but with limited accuracy and range compared to conventional guns."
+
+ amphibious_drive_dumay:0 "Super-Heavy Amphibious Drive"
+ amphibious_drive_dumay_desc:0 "The special amphibious drive is a reinforced propulsion system built to move even a massive super-heavy tank through water, using powerful screws or paddles to push the vehicle forward despite its enormous weight."
+
+ tank_multi_gun_casemate_turret:0 "Multi Gun Casemate"
+ tank_desc:0 "A heavy fixed superstructure fitted with several forward-facing guns, delivering overwhelming firepower but with poor flexibility and high maintenance demands."
+
+ tank_multiple_heavy_guns:0 "Multiple Heavy Guns"
+ tank_multiple_heavy_guns_desc:0 "A clustered set of heavy cannons mounted together, capable of saturating targets with shells but less effective against modern armor and prone to mechanical strain."
+
+ tank_coal_engine:0 "Coal Engine"
+ tank_coal_engine_desc:0 "A stopgap solution to fuel shortages, this engine burns solid fuel instead of petrol or diesel. While it allows operation without relying on scarce oil, it is bulky, inefficient, and produces less power, limiting performance compared to conventional engines."
+
+ tank_naval_gun:0 "Naval Gun"
+ tank_naval_gun_desc:0 "A light naval gun adapted for amphibious tanks, providing strong fire support during landings and coastal assaults but offering little effectiveness against enemy armor."
+
+ tank_all_round_track_suspension:0 "All-Round Track Suspension"
+ tank_all_round_track_suspension_desc:0 "Tracks that wrap fully around the hull, giving excellent grip in water and soft terrain, at the cost of reduced speed and greater production complexity."
+
+ tank_makeshift_armor_hull:0 "Makeshift Armor Hull"
+ tank_makeshift_armor_hull_desc:0 "A crude armored casing assembled from scrap metal, offering minimal protection but allowing these improvised tanks to function as mobile gun platforms."
+
+ tank_improvised_mg:0 "Improvised Machine Guns"
+ tank_improvised_mg_desc:0 "A simple mount for infantry machine guns, effective for suppressing enemy troops but incapable of threatening armored vehicles."
+
+
+ asymmetrical_cockpit:0 "Asymmetrical Cockpit"
+ asymmetrical_cockpit_desc:0 "An unconventional cockpit layout offset to the side of the fuselage, providing the crew with exceptional visibility for reconnaissance and spotting, but complicating stability and construction."
+
+ dual_fuselage_cockpit:0 "Dual Fuselage Cockpit"
+ dual_fuselage_cockpit_desc:0 "An unusual twin-body cockpit arrangement that improves stability and crew visibility, but adds significant weight and complexity."
+
+
+
+
+
+
+
+
+
+
+ tank_soto_light_fixed_superstructure_turret:0 "So-To Fixed Superstructure"
+ tank_soto_light_fixed_superstructure_turret_desc:0 "The superstructure of this light vehicle is a simple open-topped mount built to carry a pedestal anti-tank gun, offering just enough protection for the crew while keeping weight low. Its exposed design allows for wide firing angles and easy deployment, but provides only minimal armor against enemy fire."
+
+ tank_oqf_medium_fixed_superstructure_turret:0 "Medium Fixed OQF Superstructure"
+ tank_oqf_medium_fixed_superstructure_turret_desc:0 "A tall,  open-topped structure with sharply angled side plates, built to hold a pedestal-mounted gun. Its design raises the weapon above the hull for wide arcs of fire and good visibility, but it leaves the crew exposed and provides only thin frontal shielding."
+
+ tank_mkv_light_fixed_superstructure_turret:0 "Light Fixed MK VI Superstructure"
+ tank_mkv_light_fixed_superstructure_turret_desc:0 "A boxy, riveted gun shield with sharply angled side plates and a cut-out for the cannon barrel, designed to give the crew minimal frontal protection while leaving the top and rear completely open."
+
+
+
+
+
+
+
+
+ pvf_mantis_tech:0 "Praying Mantis"
+ pvf_mantis_tech_desc:0 "Experience from the Mantis project—elevating mounts, low-profile firing positions, and over-the-obstacle engagement—has reshaped our light SP artillery tactics. Crews now exploit cover and sightlines to deliver fire from hull-down or defilade, shifting between ambush points in dense urban, jungle, and other close terrain. The result is greater survivability and quicker, more accurate support where conventional guns struggle."
+
+ pvf_alecto_tech:0 "Alecto SPG"
+ pvf_alecto_tech_dech:0 "The development of the Alecto gave valuable experience in mounting different types of guns on a light chassis, teaching us how to balance mobility, firepower, and protection. These lessons improved our understanding of self-propelled gun design and made future SPGs more versatile and effective."
+
+ pvf_mk6_tech:0 "MK-VI 47mm"
+ pvf_mk6_tech_desc:0 "The development of the Mk.VI 47 mm gave us valuable practical experience in mounting a powerful gun on a light chassis, showing both the potential and the challenges of mobile anti-tank weapons. Through this experimentation, we gained insights into how to better balance firepower, protection, and mobility. These lessons directly improved our understanding of anti-tank warfare and influenced more effective vehicle designs in the future."
+
+ pvf_pak_tech:0 "Steyr PaK 43"
+ pvf_pak_tech_desc:0 "The development of the Steyr PaK 43 gave us valuable practical experience in mounting a powerful gun on a light chassis, showing both the potential and the challenges of mobile anti-tank weapons. Through this experimentation, we gained insights into how to better balance firepower, protection, and mobility. These lessons directly improved our understanding of anti-tank warfare and influenced more effective vehicle designs in the future."
+
+ pvf_oqf_tech:0 "OQF 3.7'' AA"
+ pvf_oqf_tech_desc:0 "The development of the OQF 3.7'' AA gave us important experience in modern anti-aircraft technology, teaching us how to create faster-firing, more reliable weapons capable of countering aerial threats. Through this project, we improved our understanding of targeting systems, gun stability, and high-angle firing. These lessons provided valuable knowledge that benefits all of our anti-air equipment, enhancing their overall effectiveness."
+
+ pvf_flak_tech:0 "Flakpanzer 341"
+ pvf_flak_tech_desc:0 "Through researching the twin autocannons, we gained valuable knowledge in high-rate-of-fire weapon design and fire control systems. This progress has directly improved our overall anti-air capabilities, leading to more effective defenses across all branches of our forces."
+
+ pvf_amx_tech:0 "AMX Chasseur de char"
+ pvf_amx_tech_desc:0 "The development of the AMX Chasseur de Char gave us valuable insight into integrating powerful anti-tank guns onto a highly mobile platform. By working with the 90 mm armament, we learned how to maximize firepower without sacrificing speed and maneuverability. This experience strengthened our overall understanding of anti-tank weaponry and led to improvements that benefitted anti-tank capabilities across our forces."
+
+ pvf_fcm_tech:0 "FCM 12t"
+ pvf_fcm_tech_desc:0 "The invention of the new lightweight torsion suspension has transformed the mobility of our forces, giving every vehicle on wheels or tracks a noticeable boost in speed and agility. By reducing weight and improving stability, it allows units to cover ground faster, react more flexibly to enemy movements, and maintain higher operational tempo across the battlefield. This advancement ensures that our forces can outmaneuver opponents and seize the initiative more effectively than before."
+
+ pvf_t52_tech:0 "T52 Multiple Gun Motor Carriage"
+ pvf_t52_tech_desc:0 "The development of the T52 has advanced our understanding of combining different calibers of weapons into a single mobile platform, giving us valuable experience in creating versatile anti-air systems. This knowledge has improved the general effectiveness of our anti-air technology, leading to stronger and more adaptable defenses across our forces."
+
+ pvf_smk_tech:0 "SMK Heavy Tank"
+ pvf_smk_tech_desc:0 "The development of this massive multi-turreted tank pushed our engineers to explore new ways of combining heavy armor, multiple weapons, and advanced suspension into a single design. Even though it was not widely adopted, the lessons learned from its construction and testing gave us valuable insights into armored warfare. These advancements strengthened our overall military industry and contributed to breakthroughs that improved all of our equipment."
+
+ pvf_t43_tech:0 "T43E1 Heavy Tank"
+ pvf_t43_tech_desc:0 "Research on the T43E1 has deepened our understanding of mounting extremely large guns, balancing thick armor with mobility, and refining crew layouts inside massive vehicles. These lessons have made our heavy tanks more effective overall, improving their firepower, protection, and battlefield performance."
+
+ pvf_soto_tech:0 "So-To Anti Tank Gun Carrier"
+ pvf_soto_tech_desc:0 "The introduction of the pedestal-mounted anti-tank gun improves flexibility and mobility, allowing faster deployment and wider fields of fire. This concept strengthens our overall understanding of anti-tank warfare, increasing the effectiveness of all anti-tank weapons in service."
+
+ pvf_mtls_tech:0 "Marmon-Herrington MTLS-1G14"
+ pvf_mtls_tech_desc:0 "Researching this unusual tank gives us valuable insight into rapid-fire weapon systems and turret layouts, helping us refine the design of anti-infantry guns. These lessons improve the overall effectiveness of our firepower against enemy infantry formations."
+
+ pvf_yoh_tech:0 "M-V-Yoh"
+ pvf_yoh_tech_desc:0 "The invention of this experimental tank introduced advanced design concepts that greatly enhanced mobility, giving us new insights into suspension, powertrain, and weight distribution. These innovations make all of our medium tanks faster and more effective on the battlefield."
+
+ tank_alecto_light_fixed_superstructure_turret:0 "Open Casemate Superstructure"
+ tank_alecto_light_fixed_superstructure_turret_desc:0 "a fixed, lightly armored hull extension that mounts a gun without a turret, reducing weight and height but leaving the crew exposed."
+
+ tank_alecto_field_gun_mount:0 "Alecto Field Gun Mount"
+ tank_alecto_field_gun_mount_desc:0 "A fixed installation of a medium artillery piece on a light chassis, providing strong fire support at the expense of protection and flexibility."
+
+ pvf_t82_tech:0 "T82 Howitzer Motor Carriage"
+ pvf_t82_tech_desc:0 "The development of the T82 gave engineers valuable experience in mounting heavy howitzers on light, mobile chassis, showing how artillery could be made faster and more flexible. These lessons improved the design of self-propelled artillery overall, making all of our artillery more effective and adaptable on the battlefield."
+
+ pvf_m5_tech:0 "M5/T1 Tank Destroyer"
+ pvf_m5_tech_desc:0 "The development of this vehicle showed how even small, mobile chassis could carry heavy anti-tank guns, giving us new insights into balancing firepower with mobility. These lessons advanced our understanding of tank destroyer design and helped make our anti-tank weapons more effective across the board."
+
+ pvf_chiha_tech:0 "Type 97 Chi-Ha - Bangalore Torpedo Launcher"
+ pvf_chiha_tech_desc:0 "The development of this rocket-armed tank gave us important experience in mounting and firing explosive projectiles from armored vehicles, showing how rockets could complement or even replace traditional artillery. These lessons advanced our understanding of rocket weaponry, leading to improvements in soft-attack capability across all of our forces."
+
+ pvf_dumay_tech:0 "Perinelle-Dumay Amphibious Tank"
+ pvf_dumay_tech_desc:0 "The development of the Dumay tank showed how even the heaviest armored vehicles could be adapted for water crossings, giving us vital experience in designing powerful amphibious propulsion. These lessons made our amphibious forces more efficient, ensuring stronger performance in river crossings, coastal assaults, and other waterborne operations."
+
+ pvf_pawel_tech:0 "Pawel Automobile Gun Carriage"
+ pvf_pawel_tech_desc:0 "The development of this massive multi-gun tank gave us vital experience in concentrating firepower and armor into a single vehicle, teaching us how to design machines that smash through enemy lines. These lessons improved the breakthrough potential of all our tanks."
+
+ pvf_skoda_tech:0 "Skoda SK 13"
+ pvf_skoda_tech_desc:0 "The development of coal-powered military vehicles taught us how to operate with alternative fuels, making our forces less dependent on scarce oil and more efficient in managing fuel supplies overall."
+
+ pvf_motoguzzi_tech:0 "Motoguzzi Semovente da 65/17"
+ pvf_motoguzzi_tech_desc:0 "The development of this vehicle showed how artillery could be made more mobile and effective on steep and difficult terrain, giving us valuable insights that improved the performance of all our artillery in mountainous regions."
+
+ pvf_biemmi_tech:0 "Biemmi Naval Tank"
+ pvf_biemmi_tech_desc:0 "The development of this tank showed how specialized suspensions and naval gun mounts could make armored vehicles far more effective in water landings, giving us vital knowledge that improved the performance of all our forces in amphibious battles."
+
+ pvf_cul_tech:0 "Culqualber and Uolchefit Tank"
+ pvf_cul_tech_desc:0 "The improvised Culqualber and Uolchefit tanks, built and operated under the harsh conditions of East Africa, taught us how to adapt light armor to desert warfare, giving all our light tanks improved performance in arid terrain."
+
+ pvf_ksp_tech:0 "KSP-76"
+ pvf_ksp_tech_desc:0 "The development of the KSP-76 gave us valuable insights into mounting effective guns on mobile platforms, making our anti-tank weapons more efficient and versatile across the battlefield."
+
+ pvf_oka_tech:0 "2B1 Oka"
+ pvf_oka_tech_desc:0 "The development of the Oka gave us vital experience in designing and operating colossal self-propelled guns, improving the effectiveness and firepower of all our largest artillery pieces."
+
+ pvf_cobra_tech:0 "Cobra LCCCV"
+ pvf_cobra_tech_desc:0 "The development of combat command vehicles taught us how to combine mobility, protection, and battlefield coordination in one platform, giving us insights that improved the effectiveness of all our mechanized equipment."
+
+ pvf_natter_tech:0 "Bachem Ba 349 Natter"
+ pvf_natter_tech_desc:0 "The development of the vertical launch interceptor gave us crucial insights into rocket-powered flight and extreme climb performance, improving the attack power and agility of all our rocket interceptors."
+
+ pvf_voss_tech:0 "Blohm und Voss Bv 141"
+ pvf_voss_tech_desc:0 "The development of this aircraft taught us how improved visibility affects pilot awareness and maneuvering, leading to design lessons that increased the agility of all our planes."
+
+ pvf_whit_tech:0 "Armstrong Whitworth A.W.52"
+ pvf_whit_tech_desc:0 "The development of the Whitworth flying wing gave us valuable insights into aerodynamic efficiency, helping improve the agility of all aircraft across our airforce."
+
+ pvf_north_tech:0 "Northtrop XB-35"
+ pvf_north_tech_desc:0 "The development of the Northtrop XB-35 flying wing gave us valuable insights into aerodynamic efficiency, helping improve the range of all aircraft across our airforce."
+
+ pvf_bel_tech:0 "Belyayev DB-LK"
+ pvf_bel_tech_desc:0 "The development of the Belyayev DB-LK, with its radical dual-fuselage cockpit, advanced our understanding of aerodynamics and crew layouts, influencing bomber design across the air force."
+
+
+
+
+
+ modra_revolving_tank_equipment:0 "Light Experimental Revolving Vehicle"
+ modra_revolving_tank_equipment_1:0 "Light Experimental Revolving Vehicle"
+ 
+ dozer_tank_equipment:0 "Entrenchment Tank"
+ dozer_tank_equipment_1:0 "Entrenchment Tank"
+ dozer_tank_equipment_1_desc:0 "The Entrenchment Tank is a light armored vehicle fitted with a dozer blade in place of heavy armament, designed to dig trenches, clear obstacles, and support infantry with battlefield engineering tasks."
+
+ articulated_tank_equipment:0 "Articulated Tank"
+ articulated_tank_equipment_desc:0 "The articulated tank is a heavy armored vehicle with a jointed hull, designed to cross trenches and rough ground more effectively than conventional tanks."
+ articulated_tank_equipment_1:0 "Articulated Tank"
+ articulated_tank_equipment_1_desc:0 "The articulated tank is a heavy armored vehicle with a jointed hull, designed to cross trenches and rough ground more effectively than conventional tanks."
+ 
+ halftrack_transport_equipment:0 "Halftrack Transporter"
+ halftrack_transport_equipment_1:0 "Halftrack Transporter"
+ halftrack_transport_equipment_1_desc:0 "A lightly armored half-track designed to carry troops safely across the battlefield, offering protection from small-arms fire but little combat capability of their own."
+ halftrack_transport_equipment_desc:0 "A lightly armored half-track designed to carry troops safely across the battlefield, offering protection from small-arms fire but little combat capability of their own."
+ 
+ light_gun_carrier_equipment:0 "Light Gun Carrier"
+ light_gun_carrier_equipment_1:0 "Light Gun Carrier"
+ light_gun_carrier_equipment_desc:0 "A tiny self-propelled gun mounting the 65/17 infantry piece on a light chassis, valued for its low cost and ability to operate on steep slopes and in mountainous terrain."
+ light_gun_carrier_equipment_1_desc:0 "A tiny self-propelled gun mounting the 65/17 infantry piece on a light chassis, valued for its low cost and ability to operate on steep slopes and in mountainous terrain."
+  
+ open_topped_spg_equipment:0 "Open-Topped SP Tank Destroyer"
+ open_topped_spg_equipment_1:0 "Open-Topped SP Tank Destroyer"
+ open_topped_spg_equipment_desc:0 "A wheeled self-propelled gun mounting a 76 mm cannon, designed to deliver fast-moving anti-tank firepower at the expense of armor protection."
+ open_topped_spg_equipment_1_desc:0 "A wheeled self-propelled gun mounting a 76 mm cannon, designed to deliver fast-moving anti-tank firepower at the expense of armor protection."
+
+ ultra_heavy_artillery_equipment:0 "Colossal SP Artillery"
+ ultra_heavy_artillery_equipment_1:0 "Colossal SP Artillery"
+ ultra_heavy_artillery_equipment_desc:0 "Enormous self-propelled guns capable of firing shells of unprecedented size, delivering devastating firepower at extreme cost and with limited mobility."
+ ultra_heavy_artillery_equipment_1_desc:0 "Enormous self-propelled guns capable of firing shells of unprecedented size, delivering devastating firepower at extreme cost and with limited mobility."
+
+ combat_vehicle_equipment:0 "Combat Command Vehicle"
+ combat_vehicle_equipment_1:0 "Combat Command Vehicle"
+ combat_vehicle_equipment_desc:0 "Combat command vehicles combine the mobility of mechanized transport with powerful armament and advanced communication tools, allowing them to both fight and coordinate troops on the move."
+ combat_vehicle_equipment_1_desc:0 "Combat command vehicles combine the mobility of mechanized transport with powerful armament and advanced communication tools, allowing them to both fight and coordinate troops on the move."
+
+ vertical_launch_interceptor_equipment:0 "Vertical Launch Interceptor"
+ vertical_launch_interceptor_equipment_1:0 "Vertical Launch Interceptor"
+ vertical_launch_interceptor_equipment_desc:0 "An experimental rocket-powered interceptor designed to launch vertically from simple ramps, delivering devastating short-range bursts against bomber formations but lacking endurance and protection."
+ vertical_launch_interceptor_equipment_1_desc:0 "An experimental rocket-powered interceptor designed to launch vertically from simple ramps, delivering devastating short-range bursts against bomber formations but lacking endurance and protection."
+
+ flying_wing_jet_equipment:0 "Flying Wing Fighter"
+ flying_wing_jet_equipment_1:0 "Flying Wing Fighter"
+ flying_wing_jet_equipment_desc:0 "An advanced tailless aircraft design that offers superior range and efficiency through its flying wing layout, though its unconventional aerodynamics make it difficult to master."
+ flying_wing_jet_equipment_1_desc:0 "An advanced tailless aircraft design that offers superior range and efficiency through its flying wing layout, though its unconventional aerodynamics make it difficult to master."
+
+ flying_wing_bomber_equipment:0 "Flying Wing Fighter"
+ flying_wing_bomber_equipment_1:0 "Flying Wing Fighter"
+ flying_wing_bomber_equipment_desc:0 "An advanced tailless aircraft design that offers superior range and efficiency through its flying wing layout, though its unconventional aerodynamics make it difficult to master."
+ flying_wing_bomber_equipment_1_desc:0 "An advanced tailless aircraft design that offers superior range and efficiency through its flying wing layout, though its unconventional aerodynamics make it difficult to master."
+
+
+
+

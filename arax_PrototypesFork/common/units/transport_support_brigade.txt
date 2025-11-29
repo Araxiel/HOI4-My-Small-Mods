@@ -1,0 +1,67 @@
+sub_units = {
+
+	transport_support_brigade = { #
+		abbreviation = "TSB"
+		sprite = armored_car
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+
+		type = {
+			armor
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+		}
+
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 2
+		max_organisation = 15
+		default_morale = 0.3
+		manpower = 400
+		training_time = 80
+
+		#Misc Abilities
+		weight = 0.15
+		supply_consumption = 0.05 
+				
+		defense = 1
+		hardness = 0.05
+		breakthrough = 0
+		maximum_speed = 0.2
+
+		casualty_trickleback = 0.3
+		experience_loss_factor = -0.20
+
+		battalion_mult = {
+			category = category_all_infantry
+			max_strength = 0.2
+			defence = 0.1
+			default_morale = 0.1
+		}
+
+		can_be_parachuted = no
+
+		essential = {
+			halftrack_transport_equipment
+			support_equipment
+		}
+
+		need = {
+			halftrack_transport_equipment_1 = 20
+			support_equipment = 10
+		}
+
+		same_support_type = field_hospital
+
+	}
+}

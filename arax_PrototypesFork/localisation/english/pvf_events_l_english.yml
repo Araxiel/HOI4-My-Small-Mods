@@ -1,0 +1,12 @@
+﻿l_english:
+
+ pvf.1.t:0 "Prototype Vehicles"
+ pvf.1.d:0 "The Prototype Vehicles DLC by Paradox added some fascinating experimental designs — but only as cosmetic models. There was no way to actually research, build, or field these strange machines in the game.\n\nThis mod fills that gap. It introduces a range of new Special Projects tied directly to the DLC's prototype vehicles. Completing these projects unlocks unique equipment and modules, allowing you to experiment with the Praying Mantis, the Modra Revolving Tank, and other oddities just as if they were part of your nation's research path. Each project gives you meaningful gameplay choices, rather than just new graphics.\n\n§RImportant!§!\n\nThis mod requires the Prototype Vehicles DLC to function correctly. Unfortunately, the game does not provide a way for me to enforce that check automatically, so I must rely on you, the player, to enable the DLC before using the mod."
+ pvf.1.a:0 "I have the DLC"
+ pvf.1.b:0 "I do not own the DLC"
+ pvf.2.t:0 "Special Project Availability"
+ pvf.2.d:0 "The Special Projects in this mod are locked behind the country that originally developed the prototype. However, due to popular demand in the workshop, you are now able to decide if you want every special project available for every country or not. \n§RBe aware, that this might result in bugs, as the mod is actually not designed to allow every nation to have every special project!§!"
+ pvf.2.a:0 "Keep it realistic"
+ pvf.2.b:0 "Special Projects for Everyone!"
+
+ 

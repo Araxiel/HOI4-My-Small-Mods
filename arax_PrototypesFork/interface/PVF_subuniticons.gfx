@@ -1,0 +1,38 @@
+spriteTypes = {	
+
+	### PVF ENTRIES ###
+	
+	spriteType = { name = "GFX_unit_revolving_tank_brigade_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/modra_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_revolving_tank_support_brigade_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/modra_support_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_grasshopper_brigade_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/grasshopper_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_grasshopper_support_brigade_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/grasshopper_support_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_giacomini_tank_support_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/giacomini_tank_support_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_articulated_tank_brigade_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/jac_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_articulated_tank_support_brigade_icon_medium"				textureFile = "gfx/interface/counters/divisions_large/jac_support_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_transport_support_brigade_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/skoda_support_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_gun_carrier_brigade_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/motoguzzi_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_open_topped_sp_brigade_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/ksp_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_open_topped_sp_support_brigade_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/ksp_support_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_ultra_heavy_artillery_support_brigade_icon_medium"			textureFile = "gfx/interface/counters/divisions_large/oka_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_combat_vehicle_support_brigade_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/cobra_support_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_combat_vehicle_brigade_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/cobra_brigade_icon.dds" noOfFrames = 2 }
+	
+
+	### PVF ENTRIES ###
+	spriteType = { name = "GFX_unit_revolving_tank_brigade_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_modra_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_revolving_tank_support_brigade_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_modra_support_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_grasshopper_brigade_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_grasshopper_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_grasshopper_support_brigade_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_grasshopper_support_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_giacomini_tank_support_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_giacomini_tank_support_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_articulated_tank_brigade_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_jac_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_articulated_tank_support_brigade_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_jac_support_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_transport_support_brigade_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_skoda_support_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_gun_carrier_brigade_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_motoguzzi_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_open_topped_sp_brigade_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_ksp_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_open_topped_sp_support_brigade_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_ksp_support_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_ultra_heavy_artillery_support_brigade_icon_medium_white"	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_oka_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_combat_vehicle_brigade_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_cobra_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_combat_vehicle_support_brigade_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_cobra_support_brigade_icon.dds" noOfFrames = 2 }
+	
+	
+}
