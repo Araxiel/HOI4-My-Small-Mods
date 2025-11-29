@@ -8,3 +8,6 @@
   app_integrate_desc: "$app_integration_desc$"
   app_integration: "Integration of [From.GetNameDef]"
   app_integration_desc: "[From.GetNameDef] is being further integrated by their benevolent superior."
+
+  app_generic_helicopter_organization: "$generic_helicopter_organization$"
+  app_give_helicopter_mio: "Establish dedicated Helicopter MIO"

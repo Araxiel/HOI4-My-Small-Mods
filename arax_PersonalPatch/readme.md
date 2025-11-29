@@ -16,9 +16,11 @@ Not wanting to limit the range of the Allies, representing a global alliance of 
 These are all just normal rules, that can be removed by both the player or the AI using normal means and logic (get more than 75% cohesion, spend one influence).
 
 ## MIO
-- Generic Assault Guns MIO for some nations.
-- Generic Support Equipment MIO for some nations.
-- Additional tank MIO for China
+- Generic Assault Guns MIO for all nations that don't have one.
+- Generic Support Equipment MIO for all nations that don't have one.
+- Generic Armored Car MIO for all nations that don't have one.
+- Generic Helicopter MIO for all nations that don't have one.
+- Additional tank MIOs for China
 
 ## Decisions and NFs
 
