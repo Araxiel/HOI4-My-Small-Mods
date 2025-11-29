@@ -5,5 +5,6 @@
   app_extra_research_slot: "Additional Research Slot"
 
   app_integrate: "Integrate [From.GetNameDef]"
+  app_integrate_desc: "$app_integration_desc$"
   app_integration: "Integration of [From.GetNameDef]"
   app_integration_desc: "[From.GetNameDef] is being further integrated by their benevolent superior."
