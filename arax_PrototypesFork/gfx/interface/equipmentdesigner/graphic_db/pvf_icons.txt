@@ -6,7 +6,7 @@
 default = {
 	light_tank_chassis = {
 		pool = {
-			limit = { has_country_flag = pvf_available_for_all }
+			#limit = { has_country_flag = pvf_available_for_all }
 			icons = { 
 				GFX_FRA_prototype_armor_1_medium
 				GFX_HOL_prototype_armor_0_medium
@@ -23,7 +23,7 @@ default = {
 	}
 	light_tank_destroyer_chassis = {
 		pool = {
-			limit = { has_country_flag = pvf_available_for_all }
+			#limit = { has_country_flag = pvf_available_for_all }
 			icons = { 
 				GFX_USA_prototype_armor_1_medium
 				GFX_GER_prototype_armor_1_medium
@@ -36,7 +36,7 @@ default = {
 	}
 	light_tank_artillery_chassis = { 
 		pool = {
-			limit = { has_country_flag = pvf_available_for_all }
+			#limit = { has_country_flag = pvf_available_for_all }
 			icons = { 
 				GFX_ENG_prototype_armor_0_medium
 			}
@@ -47,7 +47,7 @@ default = {
 	}
 	medium_tank_destroyer_chassis = {
 		pool = {
-			limit = { has_country_flag = pvf_available_for_all }
+			#limit = { has_country_flag = pvf_available_for_all }
 			icons = { 
 				GFX_FRA_prototype_armor_2_medium
 			}
@@ -58,7 +58,7 @@ default = {
 	}
 	medium_tank_aa_chassis = {
 		pool = {
-			limit = { has_country_flag = pvf_available_for_all }
+			#limit = { has_country_flag = pvf_available_for_all }
 			icons = { 
 				GFX_GER_prototype_armor_0_medium
 				GFX_CAN_prototype_armor_0_medium
@@ -71,7 +71,7 @@ default = {
 	}	
 	heavy_tank_destroyer_chassis = {
 		pool = {
-			limit = { has_country_flag = pvf_available_for_all }
+			#limit = { has_country_flag = pvf_available_for_all }
 			icons = { 
 				GFX_ENG_prototype_armor_2_medium
 			}
@@ -83,7 +83,7 @@ default = {
 
 	vertical_launch_interceptor_equipment = {
 		pool = {
-			limit = { has_country_flag = pvf_available_for_all }
+			#limit = { has_country_flag = pvf_available_for_all }
 			icons = {
 				GFX_GER_prototype_plane_1_medium
 			}
@@ -95,7 +95,7 @@ default = {
 
 	flying_wing_jet_equipment_1 = {
 		pool = {
-			limit = { has_country_flag = pvf_available_for_all }
+			#limit = { has_country_flag = pvf_available_for_all }
 			icons = {
 				GFX_ENG_prototype_plane_0_medium
 			}
@@ -107,7 +107,7 @@ default = {
 
 	flying_wing_bomber_equipment_1 = {
 		pool = {
-			limit = { has_country_flag = pvf_available_for_all }
+			#limit = { has_country_flag = pvf_available_for_all }
 			icons = {
 				GFX_USA_prototype_plane_0_medium
 			}

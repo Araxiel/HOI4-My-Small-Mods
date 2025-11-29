@@ -36,8 +36,8 @@ sp_mtls_tank = {
 				has_country_flag = pvf_available_for_all
 			}
 			has_country_flag = has_prototype_vehicles_dlc
+			has_tech = basic_light_tank_chassis
 		}
-		has_tech = basic_light_tank_chassis
 	}
 
 	breakthrough_cost = {
