@@ -1,7 +1,5 @@
 ﻿l_english:
 
-  joining_rule_rome_empire: "Countries in Africa or Europe Only"
-  call_to_war_rule_major_war_only: "Only When at war with Major"
   app_extra_research_slot: "Additional Research Slot"
 
   app_integrate: "Integrate [From.GetNameDef]"
@@ -9,5 +7,6 @@
   app_integration: "Integration of [From.GetNameDef]"
   app_integration_desc: "[From.GetNameDef] is being further integrated by their benevolent superior."
 
+  app_generic_armored_car_organization: "$generic_armored_car_organization$"
   app_generic_helicopter_organization: "$generic_helicopter_organization$"
   app_give_helicopter_mio: "Establish dedicated Helicopter MIO"
