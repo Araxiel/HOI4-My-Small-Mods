@@ -42,6 +42,7 @@ gf_generic_assault_guns_organization = {
 			original_tag = GER
 			original_tag = JAP
 			original_tag = HUN
+			original_tag = ITA
 		}
 	}
 	
@@ -65,6 +66,7 @@ app_generic_armored_car_organization = {
 			original_tag = JAP
 			original_tag = RAJ
 			original_tag = SWE
+			original_tag = ITA
 		}
 		
 	}
@@ -85,6 +87,7 @@ app_generic_helicopter_organization = {
 			original_tag = GER
 			original_tag = JAP
 			original_tag = USA
+			original_tag = ITA
 			original_tag = PRC # has an air company that includes helicopters
 		}
 		has_dlc = "Gotterdammerung"
