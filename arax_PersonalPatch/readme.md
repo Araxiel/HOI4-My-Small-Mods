@@ -3,19 +3,6 @@
 A "patch" to "fix" a ton of little things that annoy me.<br>
 Basically requires every DLC.
 
-## Factions
-Greatly reduced the *range* of default factions, by limiting the join rules for factions that didn't already have geographic join rules:
-- Axis: Same continent only.
-- Italian League: Same continent only.
-- Italian Empire: Only in Europe or Africa.
-- Generic factions: Only on the same continent.
-- Generic Defensive Democratic Faction: Removed same continent only restriction (making it more global, in line with Allies).
-
-Not wanting to limit the range of the Allies, representing a global alliance of anti-fascist (and anti-communist) countries:
-- Allies: Join rules remain unchanged, however **a new call-to-war rule has been added, called "Major War Only"**, which means members of the Allies faction can only be called into a war against a major enemy. If attacked by or attacking a minor, the entirety of the alliance can't be called into that war (however, normal assistance can still be done). Somewhat inspired by NATO's defacto policies and article 6, especially situations like the Angola war or Algeria. If a minor attacks, it shouldn't allow the entirety of the British and American navy and army to just *nuke* the aggressing minor.
-
-These are all just normal rules, that can be removed by both the player or the AI using normal means and logic (get more than 75% cohesion, spend one influence).
-
 ## MIO
 - Generic Assault Guns MIO for all nations that don't have one.
 - Generic Support Equipment MIO for all nations that don't have one.
@@ -27,7 +14,7 @@ These are all just normal rules, that can be removed by both the player or the A
 
 ### General
 - 5th Research slot for nations capping out at 4 (does require owning 100 factories)
-- New "Integrate" decision, usable on puppets and it works like the other Foreign Influence decisions.
+- New "Integrate" decision, usable on puppets and it works like the other Foreign Influence decisions. It's available to communist countries targeting their communist puppets, and decreases their freedom.
 
 ### EU
 - Can invite any European nation to the EU, not just the listed large countries with original tags.
@@ -46,6 +33,7 @@ Made these for my German communism playthrough:
 - Scripted decision that allows to negotiate a peace deal between Finnland and the Soviet Union, if both Germany and Soviets are friendly and communist, and Finland is not fascist.
   - Soviets get to hold onto the territory they occupy when the decision ends.
   - Part of Finland becomes a DMZ
+- Debug-like fixes for weird puppet stuff. Including fixing a weird communist revolution in my communist puppets, and my Dutch East Indies colony just being handed over to Australia.
 
 ### France
 For a Communist France playthrough:
