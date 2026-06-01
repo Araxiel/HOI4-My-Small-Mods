@@ -99,6 +99,43 @@ economy_decisions = {
         }
     }
 	
+	app_handout_goods = {
+		
+		icon = GFX_decision_hol_exchange_intelligence_data
+		
+		priority = 10
+		
+		allowed = {
+		}
+		
+		days_remove = 120
+		
+		visible = {
+		}
+		
+		available = {
+			# has_stability < 1
+		}
+		
+		modifier = {
+			political_power_gain = 0.5
+			consumer_goods_factor = 0.15
+		}
+		
+		complete_effect = {
+			add_political_power = 25
+		}
+		
+		remove_effect = {
+			add_political_power = 25
+		}
+		
+		ai_will_do = {
+			base = 0
+		}
+		
+	}
+	
 }
 
 foreign_influence = {
