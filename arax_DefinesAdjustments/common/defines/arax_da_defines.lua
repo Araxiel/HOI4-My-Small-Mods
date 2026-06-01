@@ -43,9 +43,9 @@
  NDefines.NTechnology.BASE_TECH_COST = 100					-- Base cost for a tech. multiplied with tech cost and ahead of time penalties  Default: 110
  
  NDefines.NProduction.CONVERSION_SPEED_BONUS = 0.2							-- Modifier to the production speed when converting equipment   Default: 0
- NDefines.NProduction.EQUIPMENT_MODULE_ADD_XP_COST = 2.0					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.   Default: 5.0
+ NDefines.NProduction.EQUIPMENT_MODULE_ADD_XP_COST = 4.0					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.   Default: 5.0
  NDefines.NProduction.EQUIPMENT_MODULE_REPLACE_XP_COST = 2			-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.  Default: 6.0
- NDefines.NProduction.EQUIPMENT_MODULE_CONVERT_XP_COST = 2			-- XP cost for converting one equipment module to a related module when creating an equipment variant.  Default: 3.0 
+ NDefines.NProduction.EQUIPMENT_MODULE_CONVERT_XP_COST = 1			-- XP cost for converting one equipment module to a related module when creating an equipment variant.  Default: 3.0 
  NDefines.NProduction.EQUIPMENT_MODULE_REMOVE_XP_COST = 1.0			-- XP cost for removing an equipment module and leaving the slot empty when creating an equipment variant.
  NDefines.NProduction.BASE_NAVAL_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.1       -- Fraction of the hull industry cost which is always included in the refitting cost.     Default: 0.2
  NDefines.NProduction.BASE_LAND_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.8        -- Fraction of the chassis industry cost which is always included in the conversion cost.     Default: 0.9
@@ -59,7 +59,7 @@
   
  NDefines.NMilitary.NEW_COMMANDER_RANDOM_PERSONALITY_TRAIT_CHANCES = {  -- chances to gain a personality trait for new generals
 		0.75, -- 50% for first trait
-		0.5  -- 15% for second trait after that
+		0.33  -- 15% for second trait after that
     }
     
  NDefines.NMilitary.NEW_OPERATIVE_RANDOM_PERSONALITY_TRAIT_CHANCES = {  -- chances to gain a personality trait for new operatives
@@ -73,8 +73,16 @@
 	}
 
 -- Facility bonus
- NDefines.NProject.BREAKTHROUGH_DAILY_TECHNOLOGY_GAIN = 24  -- Default: 12         -- Amount in 1/100th percentage. E.g. 25 = 0.25%
+ NDefines.NProject.BREAKTHROUGH_DAILY_TECHNOLOGY_GAIN = 16  -- Default: 12         -- Amount in 1/100th percentage. E.g. 25 = 0.25%
  NDefines.NProject.BREAKTHROUGH_DAILY_SCIENTIST_SKILL_GAIN = 10  -- Default: 5     -- Amount in 1/100th percentage gained per skill when doing basic research. E.g. 5 = 0.05% per skill level.
- NDefines.NProject.BASIC_RESEARCH_TECHNOLOGY_BONUS_FACTOR = 0.04 -- Default: 0.02    -- Bonus research factor applied to technologies per scientist skill level when performing basic research in a matching facility.
+ NDefines.NProject.BASIC_RESEARCH_TECHNOLOGY_BONUS_FACTOR = 0.05 -- Default: 0.02    -- Bonus research factor applied to technologies per scientist skill level when performing basic research in a matching facility.
  NDefines.NProject.BASIC_RESEARCH_TECHNOLOGY_BONUS_DIMINISHING_RETURN_FACTOR = 0 -- Default: 0.5 -- Diminishing return on BASIC_RESEARCH_TECHNOLOGY_BONUS_FACTOR for each extra scientist performing basic research for multiple facilities.
-	
+
+-- Faction Stuff
+NDefines.NFactions.FACTION_THEATER_COMMANDER_COUNTRY_LIMIT_BASE = 4 -- Default: 3			--base value for how many countries a theater commander can lead
+NDefines.NFactions.FACTION_THEATER_COMMANDER_COUNTRY_LIMIT_SKILL_FACTOR = 1.5 -- Default: 1	--how much each skill level adds to the country limit
+NDefines.NFactions.FACTION_THEATER_COMMANDER_REGION_LIMIT_BASE = 4 -- Default: 3			-- Base value of the commander region limit
+NDefines.NFactions.FACTION_THEATER_COMMANDER_REGION_LIMIT_SKILL_FACTOR = 1.5 -- Default: 1	-- An increase to the region limit per commander skill level
+-- Removed; requires manual UI adjustments to actually be usable. NDefines.NFactions.MAX_PROJECT_COUNT = 4	-- Default: 3									--The maximum number of projects a faction can have
+NDefines.NFactions.MAX_FACTION_THEATERS =  6	-- Default: 4							-- The maximum number of faction theaters that can be created
+
