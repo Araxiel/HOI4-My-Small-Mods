@@ -87,7 +87,7 @@
  tank_multiple_heavy_guns_desc:0 "A clustered set of heavy cannons mounted together, capable of saturating targets with shells but less effective against modern armor and prone to mechanical strain."
 
  tank_coal_engine:0 "Coal Engine"
- tank_coal_engine_desc:0 "A stopgap solution to fuel shortages, this engine burns solid fuel instead of petrol or diesel. While it allows operation without relying on scarce oil, it is bulky, inefficient, and produces less power, limiting performance compared to conventional engines."
+ tank_coal_engine_desc:0 "A stopgap solution to fuel shortages, this engine burns solid fuel instead of petrol or diesel. While it allows operation without relying on scarce oil, it is bulky, inefficient, and produces less power, limiting performance compared to conventional engines. The vehicle using this engine consumes §Gno fuel§!."
 
  tank_naval_gun:0 "Naval Gun"
  tank_naval_gun_desc:0 "A light naval gun adapted for amphibious tanks, providing strong fire support during landings and coastal assaults but offering little effectiveness against enemy armor."

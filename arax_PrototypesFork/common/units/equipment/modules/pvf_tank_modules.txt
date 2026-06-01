@@ -14,12 +14,17 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 2 
-			fuel_consumption = 0.05
-			reliability = -0.25
+			fuel_consumption = 0
+			reliability = -0.2
 		}
 
 		multiply_stats = {  
-			maximum_speed = -0.2
+			maximum_speed = -0.1
+			breakthrough = -0.1
+		}
+
+		build_cost_resources = {
+			coal = 1
 		}
 	}
 
