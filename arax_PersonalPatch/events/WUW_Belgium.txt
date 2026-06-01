@@ -156,7 +156,7 @@ country_event = {
 	fire_only_once = yes
 
 	mean_time_to_happen = {
-		days = 140
+		days = 100
 	}
 
 	option = { #Is There No End?
@@ -770,12 +770,12 @@ country_event = {
 
 			modifier = {
 				add = 4
-				has_stability > 80
+				has_stability > 0.8
 			}
 
 			modifier = {
 				add = 2
-				has_stability > 60
+				has_stability > 0.6
 			}
 
 			modifier = {
@@ -860,17 +860,17 @@ country_event = {
 
 			modifier = {
 				add = 2
-				has_stability < 20
+				has_stability < 0.2
 			}
 
 			modifier = {
 				add = 2
-				has_stability < 40
+				has_stability < 0.4
 			}
 
 			modifier = {
 				add = 2
-				has_stability < 60
+				has_stability < 0.6
 			}
 		}
 
@@ -1332,7 +1332,7 @@ country_event = { #To GER/USA/ENG: BEL requests equipment
 	}
 
 	option = { #sure, support
-		name = ww_BEL_event_diplomatic.15.b
+		name = ww_BEL_event_diplomatic.15.c
 		ai_chance = {
 			base = 10
 			modifier = {
@@ -1346,7 +1346,7 @@ country_event = { #To GER/USA/ENG: BEL requests equipment
 		ROOT = {
 			send_equipment = {
 				equipment = support_equipment
-				amount = 2000
+				amount = 250
 				target = FROM
 			}
 		}
@@ -1365,7 +1365,7 @@ country_event = { #To GER/USA/ENG: BEL requests equipment
 	}
 
 	option = { #no
-		name = ww_BEL_event_diplomatic.15.c
+		name = ww_BEL_event_diplomatic.15.b
 		ai_chance = {
 			base = 1
 			modifier = {
@@ -1532,7 +1532,7 @@ country_event = { #To BEL: Generic accept
 
 			clr_country_flag = BEL_got_support_eqiupment_flag
 
-			event_option_tooltip = ww_BEL_event_diplomatic.15.b
+			event_option_tooltip = ww_BEL_event_diplomatic.15.c
 		}
 
 		IF = {
@@ -3046,7 +3046,11 @@ country_event = { #Event for SPD: BEL proposes faction
 		}		
 		
 		FROM = {
-			create_faction = BEL_SPR_alliance
+			create_faction_from_template = {
+				template = faction_template_anti_fascist
+				name = BEL_SPR_alliance
+				icon = GFX_faction_logo_generic_11
+			}
 			add_to_faction = ROOT
 			country_event = {
 				id = ww_BEL_event_spanish_interaction.7
@@ -3093,7 +3097,11 @@ country_event = { #Event for BEL: SPD accepts
 		}		
 		
 		effect_tooltip = {
-			create_faction = BEL_SPR_alliance
+			create_faction_from_template = {
+				template = faction_template_anti_fascist
+				name = BEL_SPR_alliance
+				icon = GFX_faction_logo_generic_11
+			}
 			add_to_faction = FROM
 		}
 	}
@@ -3147,13 +3155,33 @@ country_event = { #Vandervelde Dies (Prime Minister)
 	desc = ww_BEL_event_misc.1.desc 
 	picture = GFX_report_event_generic_funeral
 
-	is_triggered_only = yes
+	trigger = {
+		original_tag = BEL 
+		has_dlc = "Gotterdammerung"
+		date > 1938.12.27
+	}
+
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	fire_only_once = yes
+
 
 	option = { #Ok!
 		name = ww_BEL_event_misc.1.a
 		ai_chance = {
 			base = 100
 		}
+		if = { ## Don't change country leader if he's not current country leader, only show effect tooltip
+			limit = {
+				has_country_leader = {
+					ruling_only = yes # default = yes
+					character = BEL_emile_vanderveld
+					
+				}
+			}
 		add_country_leader_role = {
 		    character = BEL_henri_de_man
 		    promote_leader = yes
@@ -3174,24 +3202,32 @@ country_event = { #Vandervelde Dies (Prime Minister)
 			    }
 			}
 		}
-		add_stability = -0.05
 	}
-}
-
-
-country_event = { #Tintin
-	id = ww_BEL_event_misc.2
-	title = ww_BEL_event_misc.2.t
-	desc = ww_BEL_event_misc.2.desc 
-	picture = GFX_report_event_generic_sign_treaty2
-
-	is_triggered_only = yes
-
-	option = { #Ok!
-		name = ww_BEL_event_misc.2.a
-		ai_chance = {
-			base = 100
+		else = {
+			effect_tooltip = {
+				add_country_leader_role = {
+				    character = BEL_henri_de_man
+				    promote_leader = yes
+				    country_leader = {
+				        ideology = socialism
+				        expire = "1965.1.1.1"
+				        traits = { BEL_man_with_a_plan_leader }
+				    }
+				}
+				hidden_effect = {
+					add_country_leader_role = {
+					    character = BEL_henri_de_man
+					    promote_leader = yes
+					    country_leader = {
+					        ideology = marxism
+					        expire = "1965.1.1.1"
+					        traits = { BEL_man_with_a_plan_leader }
 		}
+					}
+				}
+			}
+		}
+		add_stability = -0.05
 	}
 }
 
