@@ -149,23 +149,25 @@ foreign_influence = {
 			NOT = { original_tag = ENG }
 		}
 		
+		visible = {
+			is_ai = no
+			FROM = {
+				is_puppet_of = ROOT
+				has_government = ROOT
+			}
+			has_government = communism
+		}
+		
 		available = {
 			FROM = {
 				is_puppet_of = ROOT
 			}
 			FROM = {
-				communism > 0.8
+				communism > 0.7
 			}
 			OR = {
-				political_power_daily > 0.5
-				has_political_power > 60
-			}
-		}
-
-		visible = {
-			is_ai = no
-			FROM = {
-				is_puppet_of = ROOT
+				political_power_daily > 0.3
+				has_political_power > 40
 			}
 		}
 
@@ -183,7 +185,7 @@ foreign_influence = {
 			}
 		}
 		modifier = {
-			political_power_cost = 0.5
+			political_power_cost = 0.3
 		}
 
 		ai_will_do = {
