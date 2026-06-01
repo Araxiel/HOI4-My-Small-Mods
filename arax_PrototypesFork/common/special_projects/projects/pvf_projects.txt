@@ -7,9 +7,9 @@
 #       #   #  #    #   #   #    #   #     #   #      #           # #   #      #    # # #    # #      #      #    # 
 #       #    #  ####    #    ####    #     #   #      ######       #    ###### #    # #  ####  ###### ######  ####  
                                                                                                                      
-###TODO: Make a SUPER HEAVY TANK AMPHIBIOUS Version so that it can be used for that.
+###TODO: Make a SUPER HEAVY TANK AMPHIBIOUS Version so that it can be used for that. CURRENTLY NOT POSSIBLE :(
+###TODO: 2B1 Oka should be able to fire ATOMIC BOMBS!! CURRENTLY NOT POSSIBLE :(
 ###TODO: Maybe make articulated tank modules for light tank??
-###TODO: Once Coal is introduced, modify coal engine!!
 
 ### NETHERLANDS ###
 
@@ -36,7 +36,6 @@ sp_mtls_tank = {
 				has_country_flag = pvf_available_for_all
 			}
 			has_country_flag = has_prototype_vehicles_dlc
-			has_tech = basic_light_tank_chassis
 		}
 	}
 
@@ -44,7 +43,7 @@ sp_mtls_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -142,7 +141,7 @@ sp_skoda_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -220,7 +219,6 @@ sp_pawel_tank = {
 				has_country_flag = pvf_available_for_all
 			}
 			has_country_flag = has_prototype_vehicles_dlc
-			has_tech = gwtank_chassis
 		}
 	}
 
@@ -228,7 +226,7 @@ sp_pawel_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -325,7 +323,7 @@ sp_praying_mantis_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -422,7 +420,7 @@ sp_alecto_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -517,7 +515,7 @@ sp_centaur_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -591,7 +589,7 @@ sp_modra_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -674,7 +672,7 @@ sp_helicopter_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -752,7 +750,7 @@ sp_amx_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -836,7 +834,7 @@ sp_fcm_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -914,7 +912,7 @@ sp_jac_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -995,7 +993,7 @@ sp_dumay_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -1080,7 +1078,7 @@ sp_mk6_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -1167,7 +1165,7 @@ sp_oqf_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -1257,7 +1255,7 @@ sp_pak_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -1345,7 +1343,7 @@ sp_flak_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -1434,7 +1432,7 @@ sp_soto_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -1519,7 +1517,7 @@ sp_chiha_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -1609,7 +1607,7 @@ sp_giacomini_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -1688,7 +1686,7 @@ sp_motoguzzi_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -1766,7 +1764,7 @@ sp_biemmi_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -1841,7 +1839,7 @@ sp_cul_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -1907,6 +1905,7 @@ sp_t52_tank = {
 		FROM = {
 			OR = {
 				original_tag = USA
+				original_tag = CSA
 				has_country_flag = pvf_available_for_all
 			}
 			has_country_flag = has_prototype_vehicles_dlc
@@ -1918,7 +1917,7 @@ sp_t52_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -1992,6 +1991,7 @@ sp_yoh_tank = {
 		FROM = {
 			OR = {
 				original_tag = USA
+				original_tag = CSA
 				has_country_flag = pvf_available_for_all
 			}
 			has_country_flag = has_prototype_vehicles_dlc
@@ -2003,7 +2003,7 @@ sp_yoh_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -2077,6 +2077,7 @@ sp_t43_tank = {
 		FROM = {
 			OR = {
 				original_tag = USA
+				original_tag = CSA
 				has_country_flag = pvf_available_for_all
 			}
 			has_country_flag = has_prototype_vehicles_dlc
@@ -2088,7 +2089,7 @@ sp_t43_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -2161,6 +2162,7 @@ sp_t82_tank = {
 		FROM = {
 			OR = {
 				original_tag = USA
+				original_tag = CSA
 				has_country_flag = pvf_available_for_all
 			}
 			has_country_flag = has_prototype_vehicles_dlc
@@ -2173,7 +2175,7 @@ sp_t82_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -2246,6 +2248,7 @@ sp_m5_tank = {
 		FROM = {
 			OR = {
 				original_tag = USA
+				original_tag = CSA
 				has_country_flag = pvf_available_for_all
 			}
 			has_country_flag = has_prototype_vehicles_dlc
@@ -2258,7 +2261,7 @@ sp_m5_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -2331,6 +2334,7 @@ sp_cobra_tank = {
 		FROM = {
 			OR = {
 				original_tag = USA
+				original_tag = CSA
 				has_country_flag = pvf_available_for_all
 			}
 			has_country_flag = has_prototype_vehicles_dlc
@@ -2343,7 +2347,7 @@ sp_cobra_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -2427,7 +2431,7 @@ sp_smk_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -2511,7 +2515,7 @@ sp_stg_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -2591,7 +2595,7 @@ sp_ksp_tank = {
 		specialization_land = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -2761,7 +2765,7 @@ sp_natter_plane = {
 		specialization_air = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -2837,7 +2841,7 @@ sp_voss_plane = {
 		specialization_air = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -2919,7 +2923,7 @@ sp_whit_plane = {
 		specialization_air = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
@@ -2987,6 +2991,7 @@ sp_north_plane = {
 		FROM = {
 			OR = {
 				original_tag = USA
+				original_tag = CSA
 				has_country_flag = pvf_available_for_all
 			}
 			has_country_flag = has_prototype_vehicles_dlc
@@ -3076,7 +3081,7 @@ sp_bel_plane = {
 		specialization_air = 0
 	}
 
-	prototype_time = sp_time.prototype.short
+	prototype_time = 22
 
 	complexity = sp_complexity.small
 
