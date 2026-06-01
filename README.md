@@ -19,3 +19,7 @@ Changes to
 - A couple of country-specific decisions.
 
 [Readme](https://github.com/Araxiel/HOI4-My-Small-Mods/blob/main/arax_PersonalPatch/readme.md)
+
+## arax_FactionRestrictions
+A mod that gives factions more restrictions by default, primarly by forcing most factions to be region/continent-locked by default.
+Also adds some more region locks, i.e. "Roman Empire" which includes both Europe and Africa.
