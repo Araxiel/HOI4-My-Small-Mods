@@ -10,3 +10,15 @@
   app_generic_armored_car_organization: "$generic_armored_car_organization$"
   app_generic_helicopter_organization: "$generic_helicopter_organization$"
   app_give_helicopter_mio: "Establish dedicated Helicopter MIO"
+
+  app_handout_goods: "Appeasement Spending"
+  app_handout_goods: "Use consumer comforts to schmooze various political actors."
+
+  CZE_hand_over_ukraine: "Merge [UKR.GetAdjective] Brethren"
+  CZE_hand_over_ukraine_desc: "A fellow faction member decided to liberate and guide the Ukrainian people. Yet they failed to consider our Ukranian brethren in [RUT.GetNameDef]. Let us rectify this and offer to be the guide of both, and merge [UKR.GetNameDef] and [RUT.GetNameDef] into a single administration, under our continued guidance of course."
+  CZE_hand_over_ukranian_lwow: "Ask for [91.GetName]"
+  CZE_hand_over_ukranian_lwow_desc: "The Ukranians of [91.GetName] deserve to be with their fellow countrymen in [89.Owner.GetName]"
+
+  GER_fix_return_dutch_east_indies: "Fix East Indies Puppet"
+  GER_fix_alb_bul_war: "Fix Albanian and Bulgarian civil wars"
+  app_fixed_cw: "Solved internal crisis"
