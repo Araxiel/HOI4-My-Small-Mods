@@ -4,5 +4,5 @@ tags={
 	"Fixes"
 }
 name="Araxiel's Faction Restrictions"
-supported_version="1.17.*"
+supported_version="1.19.*"
 path="F:/Files/Paradox Modding/Hearts of Iron IV Modding/My Small Mods/arax_FactionRestrictions"

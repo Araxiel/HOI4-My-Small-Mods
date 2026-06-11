@@ -4,4 +4,4 @@ tags={
 	"Fixes"
 }
 name="Araxiel's Personal Patch"
-supported_version="1.17.*"
+supported_version="1.19.*"

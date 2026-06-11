@@ -7,4 +7,4 @@ dependencies={
 }
 picture="thumbnail.png"
 name="Araxiel's Better Medals"
-supported_version="1.17.*"
+supported_version="1.19.*"
